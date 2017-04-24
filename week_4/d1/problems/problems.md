@@ -32,7 +32,7 @@
 ### smallestPrime
 
 ```js
-// Write a function `smallestPrime(array)` that takes in an array of prime numbers
+// Write a function `smallestPrime(array)` that takes in an array of numbers
 // and returns the smallest prime number in the array.
 //
 // HINTS:

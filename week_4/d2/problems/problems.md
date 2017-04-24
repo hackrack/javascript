@@ -56,10 +56,11 @@
 ### uncompressString
 
 ```js
-// Write a function `uncompressString` that takes in a string
+// Write a function `uncompressString(str)` that takes in a "compressed" string and
+// returns the "uncompressed" version of the string. See the examples.
 //
-// HINT: Use the built-in `Number` function to turn the string representation of a number
-// into a number
+// HINT: Use the built-in `Number` function to turn the string representation of
+// a number into a number
 // Number('42'); // => 42;
 //
 // Examples:
