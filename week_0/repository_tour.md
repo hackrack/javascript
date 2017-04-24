@@ -14,8 +14,6 @@ that way you can come in with any questions that you may have.
 
 ### Solutions
 
-[link][solutions]
-
 Solution code is available in the solutions folder for each day. As you work through
 problems, don't be afraid to peek at the solutions when you get stuck! The most
 important thing to do is to understand every line of code in the solutions so you
