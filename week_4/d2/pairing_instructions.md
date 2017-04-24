@@ -1,5 +1,6 @@
 ## Pairing
 
+We will be following strict pairing today!
 Work through today's problem set with your partner. Be sure to communicate throughout.
 Remember that coding a solution is only half of the battle of a bootcamp interview.
 Communicating and collaborating over a solution is the other half!
