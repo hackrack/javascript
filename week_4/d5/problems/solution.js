@@ -26,6 +26,23 @@ function censor(sentence, curseWords) {
   return newWords.join(' ');
 }
 
+function greatestMap(array, cb1, cb2) {
+  var mapped = [];
+
+  for (var i = 0; i < array.length; i += 1) {
+    var result1 = cb1(array[i], i, array);
+    var result2 = cb2(array[i], i, array);
+
+    if (result1 > result2) {
+      mapped.push(result1);
+    } else {
+      mapped.push(result2);
+    }
+  }
+
+  return mapped;
+}
+
 function isogramMatcher(string1, string2) {
   var lettersSamePos = 0;
   var lettersDiffPos = 0;
