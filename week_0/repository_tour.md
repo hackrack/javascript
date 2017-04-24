@@ -1,6 +1,6 @@
 ## GitHub Repository
 
-https://github.com/appacademy/Bootcamp-Prep-Curriculum
+https://github.com/appacademy/bootcamp-prep-live-curriculum
 
 During Bootcamp Prep we will be using our GitHub repository to access all of our
 curriculum resources. Here are the parts of the repository you may use daily!
