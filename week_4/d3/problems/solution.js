@@ -67,7 +67,7 @@ function tallyCount(arr) {
     }
   }
 
-  return tally
+  return tally;
 }
 
 function elementCount(array) {

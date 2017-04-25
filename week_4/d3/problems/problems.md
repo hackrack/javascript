@@ -54,11 +54,9 @@
 ### nickname
 
 ```js
-// Write a function nickname(name) that takes in
-// a name string and returns a string representing their
-// nickname.
-// A nickname is the name up to the second vowel
-// repeated twice. See the examples.
+// Write a function nickname(name) that takes in a name string and returns a
+// string representing their nickname.
+// A nickname is the name up to the second vowel repeated twice. See the examples.
 //
 // Examples:
 //
@@ -71,9 +69,9 @@
 ### tallyCount
 
 ```js
-// Write a function tallyCount(array) that takes in an array
-// of strings. The function should return an object containing
-// a tally count of the strings in the array.
+// Write a function tallyCount(array) that takes in an array of strings.
+// The function should return an object containing a tally count of the strings
+// in the array.
 //
 // Examples:
 //
