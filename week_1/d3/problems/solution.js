@@ -28,7 +28,7 @@ function printFives2(max) {
 
 function printReverse(min, max) {
   for (var i = max - 1; i > min; i -= 1) {
-    console.log(i)
+    console.log(i);
   }
 }
 
