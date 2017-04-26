@@ -18,7 +18,7 @@ function hasAllVowels(str) {
 
   for (var i = 0; i < vowels.length; i += 1) {
     if (str.indexOf(vowels[i]) === -1) {
-      return false
+      return false;
     }
   }
 
@@ -34,7 +34,7 @@ function letterCount(word, char) {
     }
   }
 
-  return count
+  return count;
 }
 
 function favoriteWord(favoriteLetter, sentence) {
@@ -75,7 +75,7 @@ function commonFactors(num1, num2) {
   if (num1 < num2) {
     var max = num1;
   } else {
-    var max = num2
+    var max = num2;
   }
 
   var factors = [];
