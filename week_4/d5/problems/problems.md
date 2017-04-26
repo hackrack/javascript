@@ -3,7 +3,6 @@
 ```js
 // Write a function `censor(sentence, curseWords)` that censors the given sentence by
 // replacing the vowels in curse words with "*". Assume no punctuation.
-// Use Array.prototype.forEach.
 //
 // Examples:
 //
