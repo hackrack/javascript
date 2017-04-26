@@ -64,7 +64,8 @@
 
 ```js
 // Write a function commonFactors(num1, num2) that returns an array that contains
-// the common factors for both numbers.
+// the common factors between both numbers. A factor is a number that divides
+// another number with no remainder.
 //
 // Examples:
 //
