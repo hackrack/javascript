@@ -28,7 +28,7 @@
 // maxAdjacentSum(arr1); // => 17
 //
 // var arr2 = [3, 2, 13, 5, 4, 7];
-// maxAdjacentSum(arr2); // => 17
+// maxAdjacentSum(arr2); // => 18
 ```
 
 ### opposingSums
