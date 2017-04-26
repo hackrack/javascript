@@ -39,7 +39,7 @@ function sumNums(max) {
     sum += i;
   }
 
-  return sum
+  return sum;
 }
 
 function fizzBuzz1(max) {
