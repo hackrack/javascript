@@ -61,7 +61,7 @@ Once we find a condition that is `true`,  we won't check any of the other
 conditions.
 This means that in a chain of `if ... else if ... else` only one of the branches
 will ever be taken! We can say that branches in a `if ... else if ... else`
-areexclusive.
+are exclusive.
 
 Check out the code below and feel free to run it:
 
