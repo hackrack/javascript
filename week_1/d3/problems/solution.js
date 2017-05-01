@@ -42,6 +42,18 @@ function sumNums(max) {
   return sum;
 }
 
+function sumNums2(max) {
+  if (max <= 0) {
+    return 0;
+  } else {
+    return max / 2 * (max + 1);
+  }
+}
+
+function isFactorOf(number, factor) {
+  return (number % factor === 0);
+}
+
 function fizzBuzz1(max) {
   for (var i = 0; i < max; i += 1) {
 
@@ -52,7 +64,6 @@ function fizzBuzz1(max) {
     }
   }
 }
-
 
 function fizzBuzz2(max) {
   for (var i = 0; i < max; i += 1) {
@@ -68,10 +79,6 @@ function fizzBuzz2(max) {
 }
 
 
-function isFactorOf(number, factor) {
-  return (number % factor === 0);
-}
-
 
 function isPrime(number) {
   if (number < 2) {
@@ -79,6 +86,20 @@ function isPrime(number) {
   }
 
   for (var i = 2; i < number; i += 1) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function isPrime2(number) {
+  if (number < 2) {
+    return false;
+  }
+
+  for (var i = 2; i <= Math.sqrt(number); i += 1) {
     if (number % i === 0) {
       return false;
     }
