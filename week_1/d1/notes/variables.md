@@ -11,6 +11,20 @@ Everything in JavaScript is evaluated. A **variable** always evaluates to the **
 it contains! It is as if we can replace anywhere we see the variable name with the
 value it contains. Think of them as placeholders.
 
+### Comments
+
+Before we talk about variables, just a comment about comments.
+
+You may often see us write `//` before lines of code. This is how we write comments in our
+code. Lines that begin with `//` will not be read by the JavaScript interpreter when we
+run our code. Programmers use comments to annotate their code and we will occasionally do the
+the same!
+
+```js
+// let's do some math
+5 + 5;
+```
+
 ### Declaring Variables
 
 In JavaScript, in order to use a variable, we must *declare* it. Variable
@@ -123,3 +137,26 @@ different ways to increment as postfix (`n++`) and prefix (`++n`).
 
 We can use similar shorthand for other operations too. We have `+=` `-=`, `*=`,
 `/=`, `++`, and `--`. Hop into the REPL and experiment with these!
+
+
+### console.log
+
+`console.log` is the method we will be using to print out data to the screen. `console.log` 
+is a great tool because it allows us print out any data or variables we please! 
+This allows us to *see* what our data looks like throughout our code. Let's say we had 
+the following in a JavaScript file:
+
+```js
+var myName = 'bootcamp' + ' ' + 'prep';
+console.log(myName); // prints 'bootcamp prep'
+console.log(myName + '!!!'); // prints 'bootcamp prep!!!' 
+```
+
+When we run the file it will print out the following:
+
+```
+bootcamp prep
+bootcamp prep!!!
+```
+
+Notice that the thing we put inside the parentheses of `console.log` will be evaluated before we print it out.
