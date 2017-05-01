@@ -17,7 +17,7 @@
 
 
 [arrays]: ./notes/arrays.md
-[controlling-complexity]: ./notes/controlling-complexity.md
+[controlling-complexity]: ./notes/controlling_complexity.md
 [problems-w1d4]: ./problems/problem_set.md
 [solutions-w1d4]: ./problems/solution.js
 [practice-assessment]: ./practice_assessment
