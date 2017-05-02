@@ -6,7 +6,7 @@ function isInside(array, ele) {
 function reverseStr(str) {
   var reversed = '';
 
-  for (var i = str.length - 1; i >= 0; i--) {
+  for (var i = str.length - 1; i >= 0; i -= 1) {
     var char = str[i];
     reversed += char;
   }
@@ -18,7 +18,7 @@ function reverseStr(str) {
 function luckySevens(max) {
   var nums = [];
 
-  for (var i = 1; i <= max; i += 1) {
+  for (var i = 7; i <= max; i += 7) {
     if (i % 7 === 0) {
       nums.push(i);
     }
