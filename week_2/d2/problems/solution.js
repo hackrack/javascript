@@ -12,16 +12,18 @@ function catBuilder(name, color, toys) {
 // version 2
 function catBuilder(name, color, toys) {
   var cat = {};
+
   cat.name = name;
   cat.color = color;
   cat.toys = toys;
+  
   return cat;
 }
 
 
 function printObject(obj) {
-  for (var k in obj) {
-    console.log(k + ' - ' + obj[k]);
+  for (var key in obj) {
+    console.log(key + ' - ' + obj[key]);
   }
 }
 
@@ -35,6 +37,7 @@ function valuePair(obj1, obj2, key) {
   var val1 = obj1[key];
   var val2 = obj2[key];
   var arr = [val1, val2];
+
   return arr;
 }
 
@@ -63,10 +66,14 @@ function hasFavoriteFood(obj, food) {
   }
 }
 
+function hasFavoriteFood2(obj, food) {
+  return obj.favoriteFoods.indexOf(food) > -1;
+}
+
 function countScores(people) {
   var scoresObj = {};
 
-  for (var i = 0; i < people.length; i++) {
+  for (var i = 0; i < people.length; i += 1) {
     var personObj = people[i];
     var name = personObj.name;
     var score = personObj.score;
