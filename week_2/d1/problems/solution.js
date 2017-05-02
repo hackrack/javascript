@@ -14,6 +14,17 @@ function mirrorArray(array) {
   return newArray;
 }
 
+function mirrorArray2(array) {
+  var newArray = array.slice(0, array.length);
+
+  for (var i = array.length - 1; i >= 0; i -= 1) {
+    var el = array[i];
+    newArray.push(el);
+  }
+
+  return newArray;
+}
+
 function avgValue(array) {
   var total = 0;
 
