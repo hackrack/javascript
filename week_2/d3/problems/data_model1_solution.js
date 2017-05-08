@@ -13,7 +13,7 @@ var students1 = [
 // Pawandeep
 
 function printNames(students) {
-  for (var i = 0; i < students.length; i++) {
+  for (var i = 0; i < students.length; i += 1) {
     var student = students[i];
     console.log(student.name);
   }
@@ -43,13 +43,20 @@ var students2 = [
 // Pawandeep is student #2
 
 function printStudents(students) {
-  for (var i = 0; i < students.length; i++) {
+  for (var i = 0; i < students.length; i += 1) {
     var student = students[i];
     console.log(student.name + " is student # " + student.id);
   }
 }
 
 printStudents(students2); // uncomment when ready to test
+
+//Alternate solution using for in loop syntax
+function printStudents2(students) {
+  for (var id in students) {
+    console.log(students[id].name + " is student # " + id);
+  }
+}
 
 //~~~~~3
 var students3 = [
@@ -77,7 +84,7 @@ var students3 = [
 
 function bestGrade(grades) {
   var best = grades[0].score;
-  for (var i = 0; i < grades.length; i++) {
+  for (var i = 1; i < grades.length; i += 1) {
     var grade = grades[i];
     if (grade.score > best) { best = grade.score; }
   }
@@ -85,7 +92,7 @@ function bestGrade(grades) {
 }
 
 function printBestGrade(students) {
-  for (var i = 0; i < students.length; i++) {
+  for (var i = 0; i < students.length; i += 1) {
     var student = students[i];
     console.log(student.name, bestGrade(student.grades));
   }
@@ -103,7 +110,7 @@ printBestGrade(students3); // uncomment when ready to test
 
 function averageGrade(grades) {
   var sum = 0;
-  for (var i = 0; i < grades.length; i++) {
+  for (var i = 0; i < grades.length; i += 1) {
     var grade = grades[i];
     sum += grade.score;
   }
@@ -112,7 +119,7 @@ function averageGrade(grades) {
 
 
 function printAverageGrade(students) {
-  for (var i = 0; i < students.length; i++) {
+  for (var i = 0; i < students.length; i += 1) {
     var student = students[i];
     console.log(student.name, averageGrade(student.grades));
   }
@@ -133,8 +140,8 @@ printAverageGrade(students3); // uncomment when ready to test
 function printBestStudent(students) {
   var bestScores = {};
 
-  for (var s = 0; s < students.length; s++) {
-    var student = students[s];
+  for (var i = 0; i < students.length; i += 1) {
+    var student = students[i];
 
     for (var j = 0; j < student.grades.length; j++) {
       var grade = student.grades[j];

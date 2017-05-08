@@ -17,7 +17,7 @@ var users1 = [
 ];
 
 function printUsers (users) {
-  for (var i = 0; i < users.length; i++) {
+  for (var i = 0; i < users.length; i += 1) {
     var user = users[i];
     console.log(user.id + ": " + user.username);
   }
@@ -58,11 +58,11 @@ var users2 = [
 ];
 
 function printUsersWebsites (users) {
-  for (var i = 0; i < users.length; i++) {
+  for (var i = 0; i < users.length; i += 1) {
     var user = users[i];
     console.log("~~" + user.username + "~~");
 
-    for (var j = 0; j < user.sites.length; j++) {
+    for (var j = 0; j < user.sites.length; j += 1) {
       var site = user.sites[j];
       console.log("  -" + site.url);
     }
@@ -119,11 +119,11 @@ var users3 = [
 ];
 
 function printUsersWebsitesInfo (users) {
-  for (var i = 0; i < users.length; i++) {
+  for (var i = 0; i < users.length; i += 1) {
     var user = users[i];
     console.log("~~" + user.username + "~~");
 
-    for (var j = 0; j < user.sites.length; j++) {
+    for (var j = 0; j < user.sites.length; j += 1) {
       var site = user.sites[j];
       console.log("  -" + site.url);
       console.log("    -load:" + site.load);
