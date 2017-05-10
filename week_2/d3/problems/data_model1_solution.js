@@ -127,35 +127,3 @@ function printAverageGrade(students) {
 
 printAverageGrade(students3); // uncomment when ready to test
 
-//~~~~BONUS
-
-//Write a function that will print the id of each test and the name of the student
-//who got the highest scores
-//Example
-// printBestStudent(students3)
-// Test 0: Anthony
-// Test 1: Pawandeep
-// Test 2: Winnie
-
-function printBestStudent(students) {
-  var bestScores = {};
-
-  for (var i = 0; i < students.length; i += 1) {
-    var student = students[i];
-
-    for (var j = 0; j < student.grades.length; j++) {
-      var grade = student.grades[j];
-      if (bestScores[grade.id] === undefined) {
-        bestScores[grade.id] = { name: student.name, score: grade.score };
-      } else if (grade.score > bestScores[grade.id].score) {
-        bestScores[grade.id] = { name: student.name, score: grade.score };
-      }
-    }
-  }
-
-  for (var id in bestScores) {
-    console.log("Test " + id + ": " + bestScores[id].name);
-  }
-}
-
-printBestStudent(students3); // uncomment when ready to test
