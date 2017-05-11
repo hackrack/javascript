@@ -2,7 +2,7 @@ function longWordCount(sentence) {
   var count = 0;
   var words = sentence.split(" ");
 
-  for (var i = 0; i < words.length; i++) {
+  for (var i = 0; i < words.length; i += 1) {
     var word = words[i];
     if (word.length > 7) {
       count += 1;
@@ -16,7 +16,7 @@ function longWordCount(sentence) {
 function factorial(n) {
   var product = 1;
 
-  for (var i = 1; i <= n; i++) {
+  for (var i = 1; i <= n; i += 1) {
     product *= i;
   }
 

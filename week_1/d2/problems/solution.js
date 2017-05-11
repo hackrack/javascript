@@ -27,8 +27,7 @@ function threeOrSeven(number) {
 }
 
 function hello(str) {
-  var helloStr = "Hello, " + str + ".";
-  return helloStr;
+  console.log("Hello, " + str + ".");
 }
 
 function yell(str) {
