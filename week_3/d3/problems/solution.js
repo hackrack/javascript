@@ -1,6 +1,7 @@
 function myForEach(array, cb) {
   for (var idx = 0; idx < array.length; idx += 1) {
     var el = array[idx];
+
     cb(el, idx, array);
   }
 }
@@ -9,7 +10,7 @@ function myForEach(array, cb) {
 function mySelect(arr, cb) {
   var selected = [];
 
-  for (var i = 0; i < arr.length; i++) {
+  for (var i = 0; i < arr.length; i += 1) {
     if (cb(arr[i], i, arr)) {
       selected.push(arr[i]);
     }
@@ -22,7 +23,7 @@ function mySelect(arr, cb) {
 function myMap(arr, cb) {
   var mapped = [];
 
-  for (var i = 0; i < arr.length; i++) {
+  for (var i = 0; i < arr.length; i += 1) {
     mapped.push(cb(arr[i], i, arr));
   }
 
@@ -33,9 +34,9 @@ function myMap(arr, cb) {
 function countAdjacentSums(arr, n) {
   var count = 0;
 
-  for (var i = 0; i < arr.length; i++) {
+  for (var i = 0; i < arr.length; i += 1) {
     if (arr[i] + arr[i + 1] === n) {
-      count++;
+      count += 1;
     }
   }
 
@@ -51,12 +52,16 @@ function oppositeSign(num1, num2) {
   }
 }
 
+function oppositeSign2(num1, num2) {
+  return (num1 < 0 && num2 > 0) || (num1 > 0 && num2 < 0);
+}
+
 function signFlipCount(numbers) {
   var count = 0;
 
-  for (var i = 0; i < numbers.length - 1; i++) {
+  for (var i = 0; i < numbers.length - 1; i += 1) {
     if (oppositeSign(numbers[i], numbers[i + 1])) {
-      count++;
+      count += 1;
     }
   }
 
@@ -66,9 +71,9 @@ function signFlipCount(numbers) {
 function signFlipCount(numbers) {
   var count = 0;
 
-  for (var i = 0; i < numbers.length - 1; i++) {
+  for (var i = 0; i < numbers.length - 1; i += 1) {
     if ((numbers[i] * numbers[i + 1]) < 0) {
-      count++;
+      count += 1;
     }
   }
 
@@ -82,6 +87,7 @@ function powerSequence(base, length) {
   while (seq.length < length) {
     var last = seq[seq.length - 1];
     var next = base * last;
+
     seq.push(next);
   }
 
@@ -92,7 +98,7 @@ function powerSequence(base, length) {
 function collapseString(str) {
   var collapsed = '';
 
-  for (var i = 0; i < str.length; i++) {
+  for (var i = 0; i < str.length; i += 1) {
     var char = str[i];
 
     if (char !== collapsed[collapsed.length - 1]) {
