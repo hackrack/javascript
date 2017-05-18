@@ -147,8 +147,8 @@ to obey for now:
 
 + Be enthusiastic, respectful, and overall fun to work with
 + Make sure you are both on the same page. Don't speed ahead and leave your partner
-in the dust. Ask for clarification if you need it ("can you repeat that?") and offer
-clarification if you detect confusion ("does that make sense?"")
+in the dust. Ask for clarification if you need it (*"can you repeat that?"*) and offer
+clarification if you detect confusion (*"does that make sense?"*)
 + Be patient
 
 More on pairing like this in week 4. So stay tuned!
