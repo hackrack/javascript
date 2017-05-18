@@ -1,8 +1,9 @@
 function safeSpeedChange(speeds) {
   var changes = [];
 
-  for (var i = 0; i < speeds.length - 1; i++) {
+  for (var i = 0; i < speeds.length - 1; i += 1) {
     var diff = speeds[i + 1] - speeds[i];
+
     if (Math.abs(diff) > 5) {
       return false;
     }
@@ -18,6 +19,7 @@ function isUniqueAnagram(word1, word2) {
 
   for (var i = 0; i < word1.length; i += 1) {
     var char = word1[i];
+
     if (word2.indexOf(char) === -1) {
       return false;
     }
@@ -30,10 +32,11 @@ function shiftChars(word, num) {
   var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
   var shifted = '';
 
-  for (var i = 0; i < word.length; i++) {
+  for (var i = 0; i < word.length; i += 1) {
     var char = word[i];
     var index = alphabet.indexOf(char);
     var newIndex = (index + num) % 26;
+
     shifted += alphabet[newIndex];
   }
 
@@ -76,6 +79,20 @@ function fibonacci(n) {
   return seq;
 }
 
+function nextFibonacci(seq) {
+  return seq[seq.length-1] + seq[seq.length -2];
+}
+
+function fibonacci2(n) {
+  var seq = [1, 1];
+
+  while (seq.length < n) {
+    seq.push(nextFibonacci(seq));
+  }
+
+  return seq.slice(0, n);
+}
+
 function handScore(string) {
   var value = {
     'J': 1,
@@ -87,6 +104,7 @@ function handScore(string) {
 
   for (var i = 0; i < string.length; i += 1) {
     var card = string[i];
+    
     score += value[card];
   }
 
