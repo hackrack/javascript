@@ -13,12 +13,13 @@ function countOfLetter(string, char) {
 function charCount(str) {
   var count = {};
 
-  for (var i = 0; i < str.length; i++) {
+  for (var i = 0; i < str.length; i += 1) {
     var char = str[i];
+
     if (count[char] === undefined) {
       count[char] = 1;
     } else {
-      count[char]++;
+      count[char] += 1;
     }
   }
 
@@ -31,7 +32,7 @@ function countRepeats(string) {
 
   for (var char in count) {
     if (count[char] > 1) {
-      numRepeats++;
+      numRepeats += 1;
     }
   }
 

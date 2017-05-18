@@ -15,6 +15,22 @@ function longestBigram(sentence) {
   return longest;
 }
 
+function longestBigram2(sentence) {
+  var words = sentence.split(' ');
+  var longest = { index: 0, length: 0 };
+
+  for (var i = 0; i < words.length - 1; i += 1) {
+    var length = words[i].length + words[i+1].length;
+
+    if (length > longest.length) {
+      longest.index = i;
+      longest.length = length; 
+    }
+  }
+
+  return words[longest.index] + ' ' + words[longest.index + 1];
+}
+
 function maxAdjacentSum(array) {
   var largest = null;
 

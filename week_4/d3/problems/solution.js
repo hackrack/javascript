@@ -5,7 +5,7 @@ function removeNthLetter(word, n) {
 function alternateCase(str) {
   var newStr = '';
 
-  for (var i = 0; i < str.length; i++) {
+  for (var i = 0; i < str.length; i += 1) {
     if (i % 2 === 0) {
       newStr += str[i].toUpperCase();
     } else {
@@ -18,22 +18,45 @@ function alternateCase(str) {
 
 function stopWatch(totalSeconds) {
   var secCount = totalSeconds % 60;
+  var minCount = Math.floor(totalSeconds / 60) % 60;
+  var hourCount = Math.floor(totalSeconds / 3600);
+
   if (secCount < 10) {
     secCount = '0' + secCount;
   }
 
-  var minCount = Math.floor(totalSeconds / 60) % 60;
   if (minCount < 10) {
     minCount = '0' + minCount;
   }
 
-  var hourCount = Math.floor(totalSeconds / 3600);
   if (hourCount < 10) {
     hourCount = '0' + hourCount;
   }
 
   var timeStr = hourCount + ':' + minCount + ':' + secCount;
+
   return timeStr
+}
+
+/*
+  As you see from solution 1 that there is repeated logic for displaying numbers in double digits
+  We can use  helper function here to keep the code DRY (don't repeat yourself)
+*/
+function showDoubleDigits(num) {
+  if (num < 10) {
+    return '0' + num;
+  } else {
+    return num;
+  }
+}
+
+function stopWatch2(totalSeconds) {
+  var secCount = totalSeconds % 60;
+  var minCount = Math.floor(totalSeconds / 60) % 60;
+  var hourCount = Math.floor(totalSeconds / 3600);
+  var timeStr = showDoubleDigits(hourCount) + ':' + showDoubleDigits(minCount) + ':' + showDoubleDigits(secCount);
+
+  return timeStr;
 }
 
 function nickname(name) {
@@ -52,14 +75,15 @@ function nickname(name) {
   }
 
   var str = name.slice(0, i + 1).toUpperCase();
-  return str.toUpperCase() + '-' + str.toUpperCase();
+  return str + '-' + str;
 }
 
 function tallyCount(arr) {
   var tally = {};
 
-  for (var i = 0; i < arr.length; i++) {
+  for (var i = 0; i < arr.length; i += 1) {
     var s = arr[i];
+    
     if (tally[s] === undefined) {
       tally[s] = 'I';
     } else {

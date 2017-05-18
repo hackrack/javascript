@@ -47,11 +47,11 @@ function isogramMatcher(string1, string2) {
   var lettersSamePos = 0;
   var lettersDiffPos = 0;
 
-  for (var i = 0; i < string1.length; i++) {
+  for (var i = 0; i < string1.length; i += 1) {
     if (string1[i] === string2[i]) {
-      lettersSamePos++;
+      lettersSamePos += 1;
     } else if (string2.indexOf(string1[i]) !== -1) {
-      lettersDiffPos++;
+      lettersDiffPos += 1;
     }
   }
 
