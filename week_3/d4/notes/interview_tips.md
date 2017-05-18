@@ -2,8 +2,7 @@
 
 At this point in the course we have explored all the technical material required
 for an interview at the top coding bootcamps. Let's go over some tips
-you should follow to make yourself the ideal bootcamp candidate. Some of these tips
-aren't specific to bootcamp interviews, but will strengthen your application nonetheless.
+you should follow to make yourself the ideal bootcamp candidate.
 
 ### Interview When You Feel Ready
 
@@ -16,7 +15,6 @@ dream bootcamp, then study, study, study. You will be inevitably nervous on inte
 day. Leave nothing to chance. Strive to be a tip-top candidate, even on your worst day.
 You want to go into your interview with the confidence that you prepped as hard
 as humanly possible.
-
 
 ### Have a Positive Attitude
 
@@ -57,6 +55,21 @@ of the big picture. As you write the code and explain, you may find nuances of t
 problem that you didn't consider. Don't panic! Adjusting to change and thinking
 on the fly is part of the test.
 
+### Be Able to Predict How Code will Behave
+
+On some interviews, like App Academy's technical interview, you will not be able
+to run any code, so you must be able to predict how your code will behave and
+foresee any bugs (remember those annoying "What Would JavaScript Do" exercises?
+:stuck_out_tongue_winking_eye:). Writing code without running it sounds scary,
+but realize that code Bootcamps are not looking for perfection.
+The point of an interview is to get insight into how you think and solve problems.
+You will not be nitpicked for small errors. The important aspect is the overarching
+strategy used and your thought process! That being said, your goal is to be an absolute
+cream of the crop applicant, so strive to write working code every time!
+
+Starting now, as you code, try to predict how your code will behave before running it.
+Proofread your work using only your eyes. Practice makes perfect!
+
 ### Communication
 
 Many bootcamps emphasize collaborative work in their curriculum. A bootcamp interview
@@ -74,7 +87,7 @@ They may be trying to nudge you in the right direction.
 
 #### Treat Them like a Fellow Programmer
 
-On a technical interview, the person interviewing you will most likely be a
+On a technical interview, the person interviewing you will be a
 programmer (and a pretty darn good one!). When you explain your code, no need to
 explain every single expression as if they are a beginner. You can use a high level
 of abstraction to explain and give them the nitty gritty details if they ask for it.
@@ -100,29 +113,45 @@ function maxValue(numbers) {
 
 Here's a nicely abstracted explanation we can use for `maxValue`:
 
-```
-We'll use `largest` to track the largest number we've seen so far
-in the array. We initialize it to null as the default value. Then we'll iterate
-through each number in array and replace `largest` if we find something bigger than
-the current `largest`. After we're done iterating through all the numbers, we can
-return the `largest`.
-```
+> We'll use `largest` to track the largest number we've seen so far
+> in the array. We initialize it to null as the default value. Then we'll iterate
+> through each number in array and replace `largest` if we find something bigger than
+> the current `largest`. After we're done iterating through all the numbers, we can
+> return the `largest`.
 
 Now for a less appropriate explanation:
 
-```
-`maxValue` is a function that takes in an array of numbers as a parameter.
-We'll use a variable, `largest`, to track the largest number we've seen so far
-in the array. We declare the variable using the `var` keyword because it's good practice
-and keeps the variable out of global scope. In the for loop we initialize the counter
-`i` to be 0 and we'll go up to the length of the array and increment by 1 every time.
-Then inside we'll save `array[i]` to another variable... etc.
-```
+> `maxValue` is a function that takes in an array of numbers as a parameter.
+> We'll use a variable, `largest`, to track the largest number we've seen so far
+> in the array. We declare the variable using the `var` keyword because it's good practice
+> and keeps the variable out of global scope. In the for loop we initialize the counter
+> `i` to be 0 and we'll go up to the length of the array and increment by 1 every time.
+> Then inside we'll save `array[i]` to another variable... etc.
 
 To sum up, you should highlight key aspects of your code like necessary variables
 and loops, but no need for painstaking JavaScript detail. Explanation of the code
 will be an open conversation, you may go back and forth with your interviewer about details.
 Your goal on an interview is show them your problem solving skills and thought process!
+
+#### Pairing Up
+
+On App Academy's technical interview, one of the given problems may be an exercise
+in pair work! This means that you and your interviewer will collaborate and
+collectively come up with a solution. The pairing will be a/A style, with a **driver**
+and **navigator** at any given time. This means that one person will be typing
+while the other will be making the decisions, switching back and forth between these roles.
+This pairing will be more structures than how we have been pairing so far in prep,
+but those communication skills you developed will translate. We'll practice this
+driver/navigator pairing a ton in week 4. Here some pairing rules
+to obey for now:
+
++ Be enthusiastic, respectful, and overall fun to work with
++ Make sure you are both on the same page. Don't speed ahead and leave your partner
+in the dust. Ask for clarification if you need it ("can you repeat that?") and offer
+clarification if you detect confusion ("does that make sense?"")
++ Be patient
+
+More on pairing like this in week 4. So stay tuned!
 
 ### What to do if you don't know what to do
 
@@ -132,4 +161,5 @@ working code, the next best thing is to jot down some comments with any ideas yo
 have. Keep working at the problem, even if it is just a little piece of it.
 You don't need to write 100% percent working code on an interview to pass. An interview
 will test how candidates behave in a high pressure environment. Just try your best on every
-problem, bootcamps are looking for *potential*, not *perfection*.
+problem, bootcamps are looking for *potential*, not *perfection*. Remember your
+training and you got this!
