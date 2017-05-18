@@ -3,6 +3,7 @@ function objectSelect(obj, callback) {
 
   for (var key in obj) {
     var val = obj[key];
+
     if (callback(key, val)) {
       result[key] = val;
     }
@@ -21,12 +22,19 @@ function splitHalfArray(array) {
   }
 }
 
+function splitHalfArray2(array) {
+  var midIndex = Math.floor(array.length / 2);
+
+  return [array.slice(0, midIndex), array.slice(midIndex + array.length % 2)];
+}
+
 function threeUniqueVowels(string) {
   var vowels = ['a', 'e', 'i', 'o', 'u'];
   var count = 0;
 
   for (var i = 0; i < vowels.length; i += 1) {
     var vowel = vowels[i];
+
     if (string.indexOf(vowel) > -1) {
       count += 1;
     }
@@ -70,6 +78,7 @@ function vowelShift(sentence){
 
     if (vowelIndex > -1) {
       var nextVowelIndex = (vowelIndex + 1) % 5;
+      
       newSen += vowels[nextVowelIndex];
     } else {
       newSen += char;
