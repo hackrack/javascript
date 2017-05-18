@@ -4,10 +4,10 @@ function moreDotLessDash(str) {
 
   for (var i = 0; i < str.length; i += 1) {
     var char = str[i];
+
     if (char === '.') {
       dotCount += 1;
-    }
-    if (char === '-') {
+    } else if (char === '-') {
       dashCount += 1;
     }
   }
@@ -27,6 +27,7 @@ function toFeet(distances) {
 
     if (parts[1] === 'yards') {
       var newDis = (num * 3) + ' feet';
+
       distancesInFeet.push(newDis);
     } else {
       distancesInFeet.push(dis);
@@ -42,11 +43,12 @@ function isPrime(num) {
     return false;
   }
 
-  for (var i = 2; i  < num; i++) {
+  for (var i = 2; i  <= Math.sqrt(num); i += 1) {
     if (num % i === 0){
       return false
     }
   }
+
   return true;
 }
 
