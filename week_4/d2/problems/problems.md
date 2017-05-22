@@ -104,6 +104,9 @@
 // The next number in the sequence can be found by adding the
 // last two numbers in the sequence.
 //
+// Solve this without recursion.
+// If you don't know what recursion is, we'll see it tomorrow!
+//
 // Examples:
 //
 // fibonacci(0); // => []
