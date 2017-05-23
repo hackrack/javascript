@@ -7,6 +7,6 @@
 + [Solutions][solutions-w4d2]
 
 
-[pairing-instructions]: ./pairing_nstructions.md
+[pairing-instructions]: ./pairing_instructions.md
 [problems-w4d2]: ./problems/problems.md
 [solutions-w4d2]: ./problems/solution.js
