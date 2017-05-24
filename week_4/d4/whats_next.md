@@ -1,7 +1,7 @@
 ## What's Next
 
 Congrats on making it through Bootcamp Prep! You've worked really hard over the
-pass month, but this is only the beginning of your programming careers! The next
+past month, but this is only the beginning of your programming careers! The next
 step is your bootcamp interviews.
 
 ### Post-Course Studying
@@ -28,13 +28,6 @@ you will not be allowed to check your code by running it.
 your solution aloud. Remember that a huge part of a bootcamp interview is explaining
 your thoughts!
 
-**Type your code on collabedit.** If you are applying for App Academy, practice
-writing your code on [collabedit][collabedit]. It is the website we use to conduct
-technical interviews. It is a shared text editor, so you can create a new document
-begin writing code (be sure to set the language to JavaScript). Small things like
-being familiar with the interview environment will help put your nerves at ease on
-the interview!
-
 ### When you're feeling ready...
 
 If you're feeling good, then give yourself a pat on the back. You've worked really hard and have learned a lot. Give yourself credit for that! Then take a look at the list below.
@@ -57,6 +50,11 @@ You should take advantage of these!
 - **If you have applied to a/A already:**
 
 App Academy will send you an email after you've completed the course with a link to prep work and a link to schedule your technical interview.
+
+In either case, you will have an expedited process, skipping the initial coding
+challenges.
+
+Best of luck on your interviews prep graduate. Remember your training!
 
 [collabedit]: http://collabedit.com/
 [mock-interviews]: https://aa-mock-interviews.youcanbook.me/
