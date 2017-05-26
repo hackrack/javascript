@@ -15,6 +15,10 @@ function moreDotLessDash(str) {
   return (dotCount > dashCount);
 }
 
+function moreDotLessDash2(str) {
+  return str.split('.').length > str.split('-').length;
+}
+
 
 function toFeet(distances) {
   var distancesInFeet = [];
