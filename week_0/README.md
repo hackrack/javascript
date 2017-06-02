@@ -7,6 +7,7 @@
 + [Installations][installations]
 + [Programming Intro][programming-intro]
 + [Running Javascript][running-javascript]
++ [Bootcamp Prep Online][bpo]
 
 
 + Work through Chapter 1 of [codecademy]'s JavaScript course to get your feet wet before our first day. Feel free to work further than that as well!
@@ -19,6 +20,7 @@
 [running-javascript]: ./running_javascript.md
 [installations]: ./installations.md
 [cli]: ./cli.md
+[bpo]: ./bootcamp_prep_online.md
 
 
 [codecademy]: https://www.codecademy.com/
