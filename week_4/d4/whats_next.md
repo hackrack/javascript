@@ -56,6 +56,5 @@ challenges.
 
 Best of luck on your interviews prep graduate. Remember your training!
 
-[collabedit]: http://collabedit.com/
 [mock-interviews]: https://aa-mock-interviews.youcanbook.me/
 [app_academy_app]:https://www.appacademy.io/immersive/application/full-time
