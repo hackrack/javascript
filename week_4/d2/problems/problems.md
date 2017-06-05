@@ -30,6 +30,22 @@
 // isUniqueAnagram('abcd', 'abcdx'); // => false
 ```
 
+### reverseHipsterfy
+
+```js
+// Write a function `reverseHipsterfy(sentence)` that takes in a sentence and removes
+// all vowels, except the last vowels of every word.
+//
+// Exampels:
+//
+// reverseHipsterfy("proper"); // => 'prper'
+// reverseHipsterfy("proper tonic panther"); // => 'prper tnic pnther'
+// reverseHipsterfy("bootcamp prep"); // => 'btcamp prep'
+// reverseHipsterfy("towel flicker banana"); // => 'twel flcker bnna'
+// reverseHipsterfy("runner anaconda"); // => 'rnner ncnda'
+// reverseHipsterfy("turtle cheeseburger fries"); // => 'trtle chsbrger fres'
+```
+
 ### winningHand
 
 ```js

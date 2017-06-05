@@ -27,6 +27,47 @@ function isUniqueAnagram(word1, word2) {
   return true;
 }
 
+
+function indexOfLastVowel(word) {
+  var vowels = 'aeiou';
+
+  for (var i = word.length - 1; i >= 0; i--) {
+    var char = word[i];
+    if (vowels.indexOf(char) > -1) {
+      return i;
+    }
+  }
+}
+
+function revHipWord(word) {
+  var vowels = 'aeiou';
+  var lastVowelIdx = indexOfLastVowel(word);
+  var newWord = '';
+
+  for (var i = 0; i < word.length; i++) {
+    var char = word[i];
+    if (vowels.indexOf(char) === -1 || i === lastVowelIdx) {
+      newWord += char;
+    }
+  }
+
+  return newWord;
+}
+
+function reverseHipsterfy(sentence) {
+  var words = sentence.split(' ');
+  var newWords = [];
+
+  for (var i = 0; i < words.length; i++) {
+    var word = words[i];
+    var newWord = revHipWord(word);
+    newWords.push(newWord);
+  }
+
+  return newWords.join(' ');
+}
+
+
 function shiftChars(word, num) {
   var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
   var shifted = '';
@@ -103,7 +144,7 @@ function handScore(string) {
 
   for (var i = 0; i < string.length; i += 1) {
     var card = string[i];
-    
+
     score += value[card];
   }
 
