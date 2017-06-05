@@ -131,7 +131,7 @@ function oddOnesOut(array) {
   return result;
 }
 
-function tripletPairSum(array, sum) {
+function tripletSum(array, sum) {
   var triplets = [];
   for (var i = 0; i < array.length; i++) {
     var num1 = array[i];
