@@ -130,3 +130,21 @@ function oddOnesOut(array) {
 
   return result;
 }
+
+function tripletPairSum(array, sum) {
+  var triplets = [];
+  for (var i = 0; i < array.length; i++) {
+    var num1 = array[i];
+    for (var j = i + 1; j < array.length; j++) {
+      var num2 = array[j];
+      for (var k = j + 1; k < array.length; k++) {
+        var num3 = array[k];
+        if (num1 + num2 + num3 === sum) {
+          triplets.push([num1, num2, num3]);
+        }
+      }
+    }
+  }
+
+  return triplets;
+}
