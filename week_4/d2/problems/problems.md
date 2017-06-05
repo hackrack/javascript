@@ -36,7 +36,7 @@
 // Write a function `reverseHipsterfy(sentence)` that takes in a sentence and removes
 // all vowels, except the last vowels of every word.
 //
-// Exampels:
+// Examples:
 //
 // reverseHipsterfy("proper"); // => 'prper'
 // reverseHipsterfy("proper tonic panther"); // => 'prper tnic pnther'
