@@ -72,6 +72,43 @@
 // myMap([9, 25, 100, 36, 81], Math.sqrt); // => [ 3, 5, 10, 6, 9 ]
 ```
 
+### myEvery
+
+```js
+// Write a function `myEvery(arr, cb)` that takes in an array and a callback.
+// The function should call the cb for every element of the array.
+// The function should return true only if the callback returns true when passed in every the
+// element of the array. The function should return false otherwise.
+//
+// Examples:
+//
+// function isEven(num) {
+//   return num % 2 === 0;
+// }
+//
+// myEvery([10, 4, 8, 20], isEven); // => true
+// myEvery([2, 2, 10, 11, 12], isEven); // => false
+```
+
+### mySome
+
+```js
+// Write a function `mySome(arr, cb)` that takes in an array and a callback.
+// The function should call the callback for every element of the array. The function
+// should return true if the callback returns true when passed in any element of the array.
+// The function should return false otherwise.
+//
+// Example:
+//
+// function isNegative(num) {
+//   return num < 0;
+// }
+//
+// mySome([10, -10, 11, 4], isNegative); // => true
+// mySome([-10, -10, -11, -4], isNegative); // => true
+// mySome([2, 4, 6, 8], isNegative); // => false
+```
+
 ### countAdjacentSums
 
 ```js

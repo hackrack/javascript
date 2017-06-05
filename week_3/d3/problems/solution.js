@@ -30,6 +30,27 @@ function myMap(arr, cb) {
   return mapped;
 }
 
+function myEvery(arr, cb) {
+  for (var i = 0; i < arr.length; i++) {
+    var el = arr[i];
+    if (cb(el) === false) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function mySome(arr, cb) {
+  for (var i = 0; i < arr.length; i++) {
+    var el = arr[i];
+    if (cb(el) === true) {
+      return true;
+    }
+  }
+
+  return false;
+}
 
 function countAdjacentSums(arr, n) {
   var count = 0;
