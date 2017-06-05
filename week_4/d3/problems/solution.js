@@ -1,3 +1,11 @@
+function greatestCommonFactor(num1, num2) {
+  for (var i = num1; i >= 1; i--) {
+    if (num1 % i === 0 && num2 % i === 0) {
+      return i;
+    }
+  }
+}
+
 function removeNthLetter(word, n) {
   return word.slice(0, n) + word.slice(n + 1);
 }
@@ -83,7 +91,7 @@ function tallyCount(arr) {
 
   for (var i = 0; i < arr.length; i += 1) {
     var s = arr[i];
-    
+
     if (tally[s] === undefined) {
       tally[s] = 'I';
     } else {
