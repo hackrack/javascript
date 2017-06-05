@@ -50,6 +50,15 @@ Many of our program rules are enforced through a system of **strikes**. Students
     - Solution videos will be posted online for you to follow   
     - You are only exempt from this if you received a perfect score on Friday's assessment
   - Breaking any of these rules will earn you a strike.
+  
+- **Course Feedback**
+
+  - Students are required to fill out short feedback forms **after every class**. Be honest in your feedback
+  as we will use it to make sure we are providing the best prep experience possible. Feedback for
+  a session is due by 6:00pm the next day. Set an alarm to remind yourself or fill out the feedback as soon
+  as the session ends.
+    - To fill out feedback, log into [progress tracker][progress-tracker]. Log in with your email address,
+    your default password is **password**
 
 - **Post-Course**
   - Failing to respond to an email from App Academy in 48 hours will earn you a strike.
@@ -66,3 +75,6 @@ Violation of this policy is grounds for dismissal from the program without refun
 App Academy grants students access to its curriculum and other proprietary materials for personal training. Any unauthorized use of the curriculum is liable for prosecution under the fullest extent of California and Federal Law.
 
 In other words, please do not share the content of this Github repo or any other resources we share with you.
+
+
+[progress-tracker]: https://bp-progress.herokuapp.com/
