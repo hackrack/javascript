@@ -22,6 +22,19 @@
 // objectSize(obj2); // => 3
 ```
 
+### threeInARow
+
+```js
+// Write a function `threeInARow(arr)` that takes in array of numbers and returns
+// true if the array contains 3 consecutive numbers in increasing order.
+// The function should return false otherwise.
+//
+// Examples:
+//
+// threeInARow([3, 2, 11, 12, 13, 2, 4]); // => true
+// threeInARow([7, 2, 4, 5, 2, 1, 6]); // => false
+```
+
 ### power
 
 ```js
