@@ -72,3 +72,19 @@ function abbreviate(sentence) {
   var newSen = newWords.join(' ');
   return newSen;
 }
+
+function firstLastCap(sentence) {
+  var words = sentence.split(' ');
+  var newWords = [];
+
+  for (var i = 0; i < words.length; i++) {
+    var word = words[i];
+    var firstChar = word[0].toUpperCase();
+    var lastChar = word[word.length - 1].toUpperCase();
+    var middleChars = word.slice(1, -1).toLowerCase()
+    var newWord = firstChar + middleChars + lastChar;
+    newWords.push(newWord);
+  }
+
+  return newWords.join(' ');
+}
