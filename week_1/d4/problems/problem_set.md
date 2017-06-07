@@ -7,6 +7,7 @@
 // index to the console.
 //
 // Example:
+//
 // logEach(["Anthony", "John", "Carson"]); // prints
 // 0: Anthony
 // 1: John
@@ -20,6 +21,7 @@
 // numbers between 'start' and 'end' in sequential order.
 //
 // Examples:
+//
 // range(1,4) => [1,2,3,4]
 // range(4,2) => []
 ```
@@ -44,6 +46,7 @@
 // returns a new array where every word is capitalized.
 //
 // Example:
+//
 // capWords(['hello', 'boOtCaMp', 'PREP!']); // => ['HELLO', 'BOOTCAMP', 'PREP!']
 ```
 
@@ -66,6 +69,7 @@
 // Assume `array` is an array of numbers.
 //
 // Examples:
+//
 // maxValue([12, 6, 43, 2]); // => 43
 // maxValue([]); // => null
 // maxValue([-4, -10, 0.43]); // => 0.43
@@ -84,6 +88,7 @@ problem. Each function will require the previous to solve.
 // is prime or not. Assume `number` is a positive integer.
 //
 // Examples:
+//
 // isPrime(2); // => true
 // isPrime(1693); // => true
 // isPrime(15); // => false
@@ -97,6 +102,7 @@ problem. Each function will require the previous to solve.
 // returns an array of the first `n` prime numbers.
 //
 // Examples:
+//
 // firstNPrimes(0); // => []
 // firstNPrimes(1); // => [2]
 // firstNPrimes(4); // => [2, 3, 5, 7]
@@ -109,6 +115,7 @@ problem. Each function will require the previous to solve.
 // the first `n` prime numbers.
 //
 // Examples:
+//
 // sumOfNPrimes(0); // => 0
 // sumOfNPrimes(1); // => 2
 // sumOfNPrimes(4); // => 17
