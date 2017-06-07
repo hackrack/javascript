@@ -168,11 +168,12 @@ Evaluate each expression. Check your answer in the Node REPL.
 
 ### Truth Table
 
-Finish this truth table. Check your work in the REPL.
+Based on the values of A and B from the first two 
+columns, complete the truth table. Check your work in the REPL.
 
    A   |   B   | A && B  | A &#124;&#124; B
 -------|-------|---------|-----------------
- True  | True  |         |                 
+ True  | True  |  True   |      True        
  True  | False |         |                 
  False | True  |         |                 
  False | False |         |                 
