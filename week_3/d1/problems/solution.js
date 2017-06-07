@@ -8,6 +8,17 @@ function objectSize(obj) {
   return count;
 }
 
+function threeInARow(arr) {
+  for (var i = 0; i < arr.length - 2; i++) {
+    if (arr[i] === arr[i + 1] && arr[i] === arr[i + 2]) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+
 function threeIncreasing(arr) {
   for (var i = 0; i < arr.length - 2; i++) {
     var num1 = arr[i];
