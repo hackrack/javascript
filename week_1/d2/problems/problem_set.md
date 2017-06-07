@@ -148,6 +148,19 @@ function isEven(num) {
 }
 ```
 
+### averageOfFour
+
+```js
+// Write a function `averageOfFour(num1, num2, num3, num4)` that takes in four
+// numbers. The function should return the average of all of the numbers.
+//
+// Examples:
+//
+// averageOfFour(10, 10, 15, 5); // => 10
+// averageOfFour(3, 10, 11, 4); // => 7
+// averageOfFour(1, 2, 3, 4); // => 2.5
+```
+
 ## Thinking Problems
 
 These next few problems won't require you to write code, but it will help your understandng of JavaScript.
