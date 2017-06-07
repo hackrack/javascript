@@ -8,7 +8,7 @@ function objectSize(obj) {
   return count;
 }
 
-function threeInARow(arr) {
+function threeIncreasing(arr) {
   for (var i = 0; i < arr.length - 2; i++) {
     var num1 = arr[i];
     var num2 = arr[i + 1];
