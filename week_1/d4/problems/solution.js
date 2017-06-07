@@ -50,6 +50,20 @@ function capWords(words) {
   return newWords;
 }
 
+function wordPeriods(sentence) {
+  var words = sentence.split(' ');
+  var newWords = [];
+
+  for (var i = 0; i < words.length; i++) {
+    var word = words[i];
+    var newWord = word + '.';
+    newWords.push(newWord);
+  }
+
+  var newSen = newWords.join(' ');
+  return newSen;
+}
+
 
 function maxValue(numbers) {
   var largest = null;
