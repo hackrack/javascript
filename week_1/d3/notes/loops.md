@@ -61,7 +61,7 @@ Let's write our first `for` loops!
 for (var i = 0; i < 10; i += 1) {
   console.log(i);
 }
-// the above loop will print all numbers 0 through 0
+// the above loop will print all numbers 0 through 9
 
 for (var i = 0; i <= 10; i += 1) {
   console.log(i);
