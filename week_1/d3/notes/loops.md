@@ -61,7 +61,7 @@ Let's write our first `for` loops!
 for (var i = 0; i < 10; i += 1) {
   console.log(i);
 }
-// the above loop will print all numbers 0 through 0
+// the above loop will print all numbers 0 through 9
 
 for (var i = 0; i <= 10; i += 1) {
   console.log(i);
@@ -221,7 +221,7 @@ printNStop5(30); // prints all numbers from 1 through 4
 
 ### Choosing `while` vs `for`
 
-`while` and `for` are two different ways we can loop in JavaScript. Thy can be used
+`while` and `for` are two different ways we can loop in JavaScript. They can be used
 interchangeably. That means that you can always find a way to write a `for` loop
 that mimics a `while` loop and vice versa. A `for` is nice because we can quickly
 see all parts of the loop on a single line. However a `while` is also nice because
