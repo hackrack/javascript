@@ -24,7 +24,7 @@ function longestBigram2(sentence) {
 
     if (length > longest.length) {
       longest.index = i;
-      longest.length = length; 
+      longest.length = length;
     }
   }
 
@@ -58,4 +58,16 @@ function opposingSums(array) {
   }
 
   return arr;
+}
+
+function additionSequence(array, sequence) {
+  var newArray = [];
+
+  for (var i = 0; i < array.length; i++) {
+    var num = array[i];
+    var offset = sequence[i % sequence.length];
+    newArray.push(num + offset);
+  }
+
+  return newArray;
 }
