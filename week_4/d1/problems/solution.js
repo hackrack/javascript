@@ -19,6 +19,15 @@ function moreDotLessDash2(str) {
   return str.split('.').length > str.split('-').length;
 }
 
+function isSorted(array) {
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] > array[i+1]) {
+      return false;
+    }
+  }
+
+  return true;
+}
 
 function toFeet(distances) {
   var distancesInFeet = [];
