@@ -47,7 +47,3 @@ function inPigLatin(sentence) {
   var newSen = pigLatinWords.join(' ');
   return newSen;
 }
-
-function () {
-  
-}

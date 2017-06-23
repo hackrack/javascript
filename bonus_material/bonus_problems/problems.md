@@ -41,7 +41,7 @@
 // inPigLatin("this is the time of my life"); // => 'isthay isyay ethay imetay ofyay my ifelay'
 ```
 
-### 
+###  
 
 ```js
 
