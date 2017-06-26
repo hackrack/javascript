@@ -38,11 +38,23 @@
 //
 // inPigLatin("Shmanthony is the best teacher"); // => 'Anthonyshmay isyay ethay estbay eachertay'
 // inPigLatin("let us Dance"); // => 'etlay usyay Anceday'
-// inPigLatin("this is the time of my life"); // => 'isthay isyay ethay imetay ofyay my ifelay'
+// inPigLatin("this is the time of my life"); // => 'isthay isyay ethay imetay ofyay myay ifelay'
 ```
 
-###  
+### maxPairProduct
 
 ```js
+// Write a function `maxPairProduct(array)` that takes in an array of numbers and
+// returns the largest product of any pair of numbers from the array.  
+//
+// Examples:
+//
+// maxPairProduct([5, 7, 6, 9, 3]); // => 63
+// maxPairProduct([4, 2, 5, 6]); // => 30
+```
 
+###
+
+```js
+//
 ```

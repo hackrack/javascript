@@ -13,7 +13,7 @@ function pigLatinNonVowel(word) {
     }
   }
 
-  return word;
+  return word + 'ay';
 }
 
 function pigLatinize(word) {
@@ -46,4 +46,27 @@ function inPigLatin(sentence) {
 
   var newSen = pigLatinWords.join(' ');
   return newSen;
+}
+
+function maxPairProduct(array) {
+  var maxProduct = null;
+
+  for (var i = 0; i < array.length; i++) {
+    var num1 = array[i];
+
+    for (var j = i + 1; j < array.length; j++) {
+      var num2 = array[j];
+
+      var product = num1 * num2;
+      if (product > maxProduct || maxProduct === null) {
+        maxProduct = product;
+      }
+    }
+  }
+
+  return maxProduct;
+}
+
+function (str) {
+
 }
