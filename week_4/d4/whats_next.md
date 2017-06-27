@@ -56,5 +56,5 @@ challenges.
 
 Best of luck on your interviews prep graduate. Remember your training!
 
-[mock-interviews]: https://aa-mock-interviews.youcanbook.me/
+[mock-interviews]: https://aa-mock-interviews-2.youcanbook.me/
 [app_academy_app]:https://www.appacademy.io/immersive/application/full-time
