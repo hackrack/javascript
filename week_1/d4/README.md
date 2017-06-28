@@ -1,8 +1,6 @@
 ## W1D4
 
 + [Arrays][arrays]
-+ [Controlling Complexity][controlling-complexity]
-
 
 + [Installing Mocha][mocha]
 + [Practice Assessment][practice-assessment]
