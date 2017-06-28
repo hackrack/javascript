@@ -22,7 +22,7 @@
 //   console.log(num / 2);
 // }
 //
-// myForEach(['10', '50', '120'], printHalf); // prints
+// myForEach([10, 50, 120], printHalf); // prints
 // 5
 // 25
 // 60
