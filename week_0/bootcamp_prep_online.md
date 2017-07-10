@@ -14,6 +14,6 @@
 
 ### Access
 
-You will receive access to [Bootcamp Prep Online][bpo] during week 1.
+You can log into [Bootcamp Prep Online][bpo] now! Sign up for an account using the email you enrolled into Bootcamp Prep with.
 
 [bpo]: http://www.aaonline.io/
