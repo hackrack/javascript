@@ -4,6 +4,7 @@
 
 + [Installing Mocha][mocha]
 + [Practice Assessment][practice-assessment]
+  + Videos Password: **go_bootcamp_go**
   + [Setup Walkthrough][assessment-setup]
   + [average Solution][average]
   + [tripler Solution][tripler]
