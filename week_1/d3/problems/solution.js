@@ -143,8 +143,6 @@ function fizzBuzz2(max) {
   }
 }
 
-
-
 function isPrime(number) {
   if (number < 2) {
     return false;
