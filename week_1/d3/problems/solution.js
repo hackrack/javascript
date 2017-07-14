@@ -4,6 +4,13 @@ function logBetween(lowNum, highNum) {
   }
 }
 
+function logBetween(lowNum, highNum) {
+  var i = lowNum;
+  while (i <= highNum) {
+    console.log(i);
+    i++;
+  }
+}
 
 function logBetweenStepper(min, max, step) {
   for (var i = min; i <= max; i += step) {
@@ -11,6 +18,13 @@ function logBetweenStepper(min, max, step) {
   }
 }
 
+function logBetweenStepper(min, max, step) {
+  var i = min;
+  while (i <= max) {
+    console.log(i);
+    i += step;
+  }
+}
 
 function printFives1(max) {
   for (var i = 0; i < max; i += 1) {
@@ -20,15 +34,41 @@ function printFives1(max) {
   }
 }
 
+function printFives1(max) {
+  var i = 0;
+  while (i < max) {
+    if (i % 5 ===0) {
+      console.log(i);
+    }
+    i++;
+  }
+}
+
 function printFives2(max) {
   for (var i = 0; i < max; i += 5) {
     console.log(i);
   }
 }
 
+function printFives2(max) {
+  var i = 0;
+  while (i < max) {
+    console.log(i);
+    i += 5;
+  }
+}
+
 function printReverse(min, max) {
   for (var i = max - 1; i > min; i -= 1) {
     console.log(i);
+  }
+}
+
+function printReverse(min, max) {
+  var i = max - 1;
+  while (i > min) {
+    console.log(i);
+    i--;
   }
 }
 
@@ -42,11 +82,24 @@ function sumNums(max) {
   return sum;
 }
 
-function sumNums2(max) {
-  if (max <= 0) {
+function sumNums(max) {
+  var sum = 0;
+  var i = 1;
+
+  while (i <= max) {
+    sum += i;
+    i++;
+  }
+
+  return sum;
+}
+
+// For our mathematically inclined: https://math.stackexchange.com/questions/2260/proof-for-formula-for-sum-of-sequence-123-ldotsn
+function sumNums2(n) {
+  if (n <= 0) {
     return 0;
   } else {
-    return max / 2 * (max + 1);
+    return (n * (n + 1))/ 2;
   }
 }
 
@@ -62,6 +115,18 @@ function fizzBuzz1(max) {
     } else if (i % 5 === 0 && i % 3 !== 0) {
       console.log(i);
     }
+  }
+}
+
+function fizzBuzz1(max) {
+  var i = 0;
+  while(i < max) {
+    if (i % 3 === 0 && i % 5 !== 0) {
+      console.log(i);
+    } else if (i % 5 === 0 && i % 3 !== 0) {
+      console.log(i);
+    }
+    i++;
   }
 }
 
@@ -89,6 +154,22 @@ function isPrime(number) {
     if (number % i === 0) {
       return false;
     }
+  }
+
+  return true;
+}
+
+function isPrime(number) {
+  if (number < 2) {
+    return false;
+  }
+
+  var i = 2;
+  while (i < number) {
+    if (number % i === 0) {
+      return false;
+    }
+    i++;
   }
 
   return true;
