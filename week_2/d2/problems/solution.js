@@ -128,13 +128,3 @@ function sumOfNPrimes(n) {
 
   return sum;
 }
-
-// debugged
-var cat = {
-  sound : "Meowr",
-  purr : function() {
-    return (this.sound + "..." + this.sound);
-  }
-}
-
-cat.purr() === "Meowr...Meowr";

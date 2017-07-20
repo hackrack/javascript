@@ -203,20 +203,6 @@ problem. Each function will require the previous to solve.
 // sumOfNPrimes(4); // => 17
 ```
 
-
-### Debug the Program
-
-```js
-var cat = {
-  sound : "Meowr",
-  purr : function() {
-    return (sound + "..." + sound);
-  }
-}
-
-cat.purr() === "Meowr...Meowr";
-```
-
 ### Predict The Output
 
 ```js
