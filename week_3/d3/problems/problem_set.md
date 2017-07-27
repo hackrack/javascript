@@ -26,6 +26,10 @@
 // 5
 // 25
 // 60
+//
+// Note that in the example above, the `printHalf` callback function only expects a single
+// parameter. If we try to pass more than one parameter to the function,
+// it will ignore the extras. `printHalf(10, 'what?', false)` will print 5.
 ```
 
 ### mySelect
@@ -50,6 +54,10 @@
 // }
 //
 // mySelect([12, -14, 4, -10.2, 0], isNegative); // => [ -14, -10.2 ]
+//
+// Note that in the examples above, the callback functions only expect a single paramter,
+// but your `mySelect` function should still try to pass 3 parameters to the callback.
+// This allows us to create a versatile `mySelect` function that works with various callbacks.
 ```
 
 ### myMap
