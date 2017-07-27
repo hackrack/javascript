@@ -1,5 +1,8 @@
 ## W3D4
 
++ [Data Modeling][data-model-notes]
+
+
 + [Data Model 1][data-model-1]
 + [Data Model 1 Solution][data-model-1-sol]
 + [Data Model 2][data-model-2]
@@ -18,5 +21,6 @@
 [data-model-2]: ./problems/data_model2.js
 [data-model-2-sol]: ./problems/data_model2_solution.js
 [interview-tips]: ./notes/interview_tips.md
+[data-model-notes]: ./notes/data_modeling.md
 [problems-w3d4]: ./problems/problem_set.md
 [solutions-w3d4]: ./problems/solution.js
