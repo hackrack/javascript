@@ -24,41 +24,15 @@ function alternateCase(str) {
   return newStr;
 }
 
-function stopWatch(totalSeconds) {
-  var secCount = totalSeconds % 60;
-  var minCount = Math.floor(totalSeconds / 60) % 60;
-  var hourCount = Math.floor(totalSeconds / 3600);
-
-  if (secCount < 10) {
-    secCount = '0' + secCount;
-  }
-
-  if (minCount < 10) {
-    minCount = '0' + minCount;
-  }
-
-  if (hourCount < 10) {
-    hourCount = '0' + hourCount;
-  }
-
-  var timeStr = hourCount + ':' + minCount + ':' + secCount;
-
-  return timeStr
-}
-
-/*
-  As you see from solution 1 that there is repeated logic for displaying numbers in double digits
-  We can use  helper function here to keep the code DRY (don't repeat yourself)
-*/
 function showDoubleDigits(num) {
   if (num < 10) {
     return '0' + num;
   } else {
-    return num;
+    return String(num);
   }
 }
 
-function stopWatch2(totalSeconds) {
+function stopWatch(totalSeconds) {
   var secCount = totalSeconds % 60;
   var minCount = Math.floor(totalSeconds / 60) % 60;
   var hourCount = Math.floor(totalSeconds / 3600);
