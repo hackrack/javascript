@@ -119,7 +119,8 @@
 ```js
 // Write a function `tripletSum(array, sum)` that takes in an array of numbers (array)
 // and a number (sum). The function should return an array containing unique
-// triplets of numbers from the array that equal `sum` when added together.
+// triplets of numbers from the array that equal `sum` when added together. You can
+// assume that the input array contains no repeated numbers.
 //
 // Example:
 //
