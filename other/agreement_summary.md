@@ -54,9 +54,8 @@ Many of our program rules are enforced through a system of **strikes**. Students
 - **Course Feedback**
 
   - Students are required to fill out short feedback forms **after every class**. Be honest in your feedback
-  as we will use it to make sure we are providing the best prep experience possible. Feedback for
-  a session is due by 6:00pm the next day. Set an alarm to remind yourself or fill out the feedback as soon
-  as the session ends.
+  as we will use it to make sure we are providing the best prep experience possible. You should fill out your feedback for
+  the night when class concludes at 9:00pm. Be sure to do this before you leave!
     - To fill out feedback, log into [progress tracker][progress-tracker]. Log in with your email address,
     your default password is **password**
 
