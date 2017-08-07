@@ -1,6 +1,6 @@
 ## Piazza
 
-Piazza is a question/answer platform that we will be using during Bootcamp Prep.
+[Piazza][piazza] is a question/answer platform that we will be using during Bootcamp Prep.
 We will also be using Piazza to do things like submit assessments and share the
 code we build during lectures. Before the start of your Bootcamp Prep cohort,
 you will be invited to the Piazza class.
@@ -11,7 +11,7 @@ The student's who get the most out of Bootcamp Prep are the ones who make it a
 point to ask questions. Asking questions is vital when learning how to program as it is
 how we fill gaps in our knowledge. There are a couple of ways to ask questions in
 Bootcamp Prep. Raise your hand during lecture, ask for help during problem set time,
-and postM on Piazza.
+and post on Piazza.
 
 Piazza great for a couple of reasons. Students from both SF and NY will be in
 a single class, which means we'll have more questions and answers. If you have a question
@@ -28,3 +28,17 @@ that will be tested on your technical interviews, so it is important to get prac
 with this. Instructors will be monitoring the responses, so don't be afraid of
 misleading others. Being able to explain a concept to someone else on a fundamental
 level shows deep understanding!
+
+## Slack
+
+[Slack][bp-slack] is a live team messaging app used all around the tech industry.
+Slack is useful for chatting with your classmates and instructors in real time.
+It's a great place to have a back and forth discussion about code. We will also be
+making announcements occasionally. You should have received an invite to our slack
+team upon enrolling. Feel free to jump into the `#general` channel now and say hello.
+We highly recommend you download the [Slack][slack] application on your computer and
+mobile device!
+
+[piazza]: https://piazza.com/
+[slack]: https://slack.com/
+[bp-slack]: https://aa-bootcamp-prep.slack.com/
