@@ -37,9 +37,8 @@ Even if you are dead-set on attending one particular coding bootcamp, going thro
 
 ### Scheduling a Mock Interview
 
-For extra practice, we offer up to *two* mock interviews for each graduate. If you
-are interested, please schedule your [mock interviews here][mock-interviews].
-You should take advantage of these!
+For extra practice, we offer up to *two* mock interviews for each graduate. Read
+more about booking mock interview's [here][mock-interviews]
 
 ### Applying to App Academy
 
@@ -56,5 +55,5 @@ challenges.
 
 Best of luck on your interviews prep graduate. Remember your training!
 
-[mock-interviews]: https://aa-mock-interviews-2.youcanbook.me/
-[app_academy_app]:https://www.appacademy.io/immersive/application/full-time
+[mock-interviews]: /other/mock_interviews.md
+[app_academy_app]: https://www.appacademy.io/immersive/application/full-time
