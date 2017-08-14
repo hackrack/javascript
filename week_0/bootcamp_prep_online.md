@@ -2,7 +2,8 @@
 
  As students of the Bootcamp Prep Live course, you have also been giving access
  to the Online course. Feel free to use the **video lectures and video solutions** to
- complement the in person lectures from class. This is particularly helpful when you
+ complement the in person lectures from class. You can search the Bootcamp Prep Online
+ content by topic or problem name. This is particularly helpful when you
  miss a class or need to reinforce some topics or problems. This is the same content
  in the live GitHub repository, except with video resources
 
