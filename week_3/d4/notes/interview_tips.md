@@ -116,22 +116,92 @@ Here's a nicely abstracted explanation we can use for `maxValue`:
 > We'll use `largest` to track the largest number we've seen so far
 > in the array. We initialize it to null as the default value. Then we'll iterate
 > through each number in array and replace `largest` if we find something bigger than
-> the current `largest`. After we're done iterating through all the numbers, we can
-> return the `largest`.
+> the current `largest`. After we're done checking the entire array we should have the real
+> `largest`!
 
 Now for a less appropriate explanation:
 
 > `maxValue` is a function that takes in an array of numbers as a parameter.
-> We'll use a variable, `largest`, to track the largest number we've seen so far
-> in the array. We declare the variable using the `var` keyword because it's good practice
+> We declare the variable using the `var` keyword because it's good practice
 > and keeps the variable out of global scope. In the for loop we initialize the counter
 > `i` to be 0 and we'll go up to the length of the array and increment by 1 every time.
 > Then inside we'll save `array[i]` to another variable... etc.
 
+Your goal is to explain the problem and solution and not to explain JavaScript.
 To sum up, you should highlight key aspects of your code like necessary variables
 and loops, but no need for painstaking JavaScript detail. Explanation of the code
 will be an open conversation, you may go back and forth with your interviewer about details.
 Your goal on an interview is show them your problem solving skills and thought process!
+
+### What to do if you don't know what to do
+
+Let's say you have absolutely no idea what to do on a problem. Bounce some ideas
+off your interviewer. Let them know what you are thinking. If you can't write
+working code, the next best thing is to jot down some comments with any ideas you
+have. Keep working at the problem, even if it is just a little piece of it.
+You don't need to write 100% percent working code on an interview to pass. An interview
+will test how candidates behave in a high pressure environment. Just try your best on every
+problem, bootcamps are looking for *potential*, not *perfection*. Remember your
+training and you got this!
+
+
+## a/A Technical Interview FAQ
+
+As students of Bootcamp Prep, all of you have expressed interest in gaining admission
+into App Academy's immersive course. App Academy is well known for being a highly
+selective bootcamp, so you'll want to set your best foot forward by following all
+that we highlighted above. Here is some insider information to help you stand out
+against the crowd of all those applying to App Academy. We have compiled answers
+to common questions you may have about the interview:
+
++ **How will the interview be administered? Is it in person?**
+  + The App Academy technical interview will be administered remotely using a video/voice
+  chat service like Skype or Google Hangouts. It will not be given in person, even
+  if you are located near the a/A campus.
+
++ **How long is the interview?**
+  + You can expect the entire interview to take about 50 minutes.
+
++ **What's the format of the interview?**
+  + The technical interview will consist of 3 different programming problems of varying
+  difficulty. You will be given an *easy*, *medium*, and *hard* problem (not necessarily
+  in that order). You will be given each question one at a time. For each problem you
+  will be given 15 minutes to work through, code, and explain a solution. For the *hard*
+  problem, you will be pair programming with your interviewer to design a solution by
+  collaborating
+
++ **What style will the problems be?**
+  + The problems will be structured the same way as most of the Bootcamp Prep problems.
+  You will be given a text description of the problem, followed by examples. All problems
+  will ask you to write a function. Just like problems from our problem sets and assessments!
+
++ **What happens if I finish a problem early?**
+  + When your interviewer is satisfied with your answer and explanation, you may
+  move onto the next problem before the 15 minutes is up. If you finish a problem early,
+  the time remaining will not rollover to the next problem.
+
++ **What happens if I don't finish a problem in the given time?**
+  + When the 15 minutes is up, you will continue to the next, regardless of
+  whether or not you solved the problem.
+
++ **Where will I be typing my code?**
+  + You will be typing your code in [kobra.io][kobra]. Both you and your interviewer
+  will be able to view and make changes to the file. Perhaps, practice typing code
+  in kobra (be sure to set the language to JS). Small things like being familiar
+  with the code environment will help put your nerves at ease during an interview.
+
++ **Can I run my code?**
+  + You will not be allowed to run any of the code you write.
+
++ **Can I use any outside resources during the interview?**
+  + You will not be allowed to access any resources during the interview. However,
+  you may ask your interviewer about methods you can't exactly remember. For example,
+  let's say you forgot about `Math.floor`. You can ask "I forgot the name of the method that r
+  rounds a number down to the nearest integer, but I know it exists. Can I assume
+  it's called `roundDown`?". The point of an interview is not to test how many methods you
+  memorized. Your goal is to show how you solve problems using what you know and what you're
+  given! Of course, there are limits to this. We probably won't give you a free `isPrime`
+  function :).
 
 #### Pairing Up
 
@@ -140,7 +210,7 @@ in pair work! This means that you and your interviewer will collaborate and
 collectively come up with a solution. The pairing will be a/A style, with a **driver**
 and **navigator** at any given time. This means that one person will be typing
 while the other will be making the decisions, switching back and forth between these roles.
-This pairing will be more structures than how we have been pairing so far in prep,
+This pairing will be more structured than how we have been pairing so far in prep,
 but those communication skills you developed will translate. We'll practice this
 driver/navigator pairing a ton in week 4. Here some pairing rules
 to obey for now:
@@ -153,13 +223,5 @@ clarification if you detect confusion (*"does that make sense?"*)
 
 More on pairing like this in week 4. So stay tuned!
 
-### What to do if you don't know what to do
 
-Let's say you have absolutely no idea what to do on a problem. Bounce some ideas
-off your interviewer. Let them know what you are thinking. If you can't write
-working code, the next best thing is to jot down some comments with any ideas you
-have. Keep working at the problem, even if it is just a little piece of it.
-You don't need to write 100% percent working code on an interview to pass. An interview
-will test how candidates behave in a high pressure environment. Just try your best on every
-problem, bootcamps are looking for *potential*, not *perfection*. Remember your
-training and you got this!
+[kobra]: https://kobra.io/
