@@ -145,6 +145,35 @@
 // isPrime(3548563); // => false
 ```
 
+
+### Loop Muscle Memory
+
+Practice typing the syntax for loops! Type each snippet 5 times. Focus on using
+proper style and indentation. Be sure to run the code every time you finish typing it
+to make sure you didn't make an typos.
+
+```js
+function printForwards(start, end) {
+  for (var counter = start; counter <= end; counter++) {
+    console.log(counter);
+  }
+}
+
+printForwards(4, 11); // feel free to change the numbers being passed
+```
+
+```js
+function printBackwards(start, end) {
+  var i = end;
+  while (i >= start) {
+    console.log(i);
+    i--;
+  }
+}
+
+printBackwards(-5, 6); // feel free to change the numbers being passed
+```
+
 ### How will these programs evaluate?
 
 Predict what will happen in the code below, and then run the code to find out!
@@ -187,7 +216,6 @@ var bar = function() {
 
 var result = bar();
 console.log(result); // What does this print out?
-
 ```
 
 

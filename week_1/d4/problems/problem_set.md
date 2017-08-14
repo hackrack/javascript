@@ -74,3 +74,33 @@
 // maxValue([]); // => null
 // maxValue([-4, -10, 0.43]); // => 0.43
 ```
+
+### Array Muscle Memory
+
+Practice typing the syntax for iterating through arrays. Type each snippet 5 times each.
+Focus on proper style and indentation. Be sure to test your code after each time you type
+it.
+
+```js
+function printForwards(arr) {
+  for (var i = 0; i < arr.length; i++) {
+    var ele = arr[i];
+    console.log(ele);
+  }
+}
+
+var alphabet = ['a', 'b', 'c', 'd', 'e'];
+printForwards(alphabet);
+```
+
+```js
+function printBackwards(array) {
+  for (var i = array.length - 1; i >= 0; i--) {
+    var ele = array[i];
+    console.log(ele);
+  }
+}
+
+var names = ['kurstie', 'mike', 'alex', 'meagan'];
+printBackwards(names);
+```

@@ -161,6 +161,35 @@ function isEven(num) {
 // averageOfFour(1, 2, 3, 4); // => 2.5
 ```
 
+### Function Muscle Memory
+
+Practice typing the syntax for functions. Type each snippet 10 times. Focus on using
+proper style and indentation. Be sure to run the code every time you finish typing it
+to make sure you didn't make an typos.
+
+```js
+function sayHello(name) {
+  var msg = 'Hello, ' + name + '. How are you?';
+  return msg;
+}
+
+console.log(sayHello('bootcamp prep')); // feel free to change the string being passed
+```
+
+```js
+function checkNumber(num) {
+  if (num > 0) {
+    return 'positive';
+  } else if (num < 0) {
+    return 'negative';
+  } else {
+    return 'zero';
+  }
+}
+
+console.log(checkNumber(5)); // feel free to change the number being passed
+```
+
 ## Thinking Problems
 
 These next few problems won't require you to write code, but it will help your understandng of JavaScript.
@@ -181,7 +210,7 @@ Evaluate each expression. Check your answer in the Node REPL.
 
 ### Truth Table
 
-Based on the values of A and B from the first two 
+Based on the values of A and B from the first two
 columns, complete the truth table. Check your work in the REPL.
 
    A   |   B   | A && B  | A &#124;&#124; B
