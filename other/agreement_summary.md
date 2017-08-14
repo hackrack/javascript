@@ -44,10 +44,13 @@ Many of our program rules are enforced through a system of **strikes**. Students
 
   - Assessments are administered every Monday and Friday.
   - You are required to do take every assessment (even if you are absent)
-  - You must submit a perfect Friday assessment before the next class on Monday
-    - Solution videos will be posted online for you to follow   
-    - You are only exempt from this if you received a perfect score on Friday's assessment
-  - Breaking any of these rules will earn you a strike.
+  - After taking an assessment you must complete corrections:
+    - You must submit a perfect Friday assessment by the following Monday's class
+    - You must submit a perfect Monday assessment by the following Friday's class
+      - These corrections are due before class begins
+      - Solution videos will be posted online for you to follow   
+      - You are only exempt from this if you received a perfect score on the assessment
+  - Failure to submit these corrections will earn a strike
 
 - **Course Feedback**
 
