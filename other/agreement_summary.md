@@ -3,14 +3,12 @@ For quick references, here are **brief summaries** of the contracts you signed u
 ## Bootcamp Application Agreement Summary
   - You agree to make a reasonable, good-faith effort to apply to programming bootcamps in the **2 months** following your completion of Bootcamp Prep.
   - Unless you've been admitted to a bootcamp, you must apply to all of the following bootcamps:
-    - Coding Dojo
-    - Galvanize
-    - General Assembly
-    - Full Stack Academy
-    - Launch Academy
-    - Flatiron School
-    - Hack Reactor
     - App Academy
+    - Fullstack Academy
+    - Hack Reactor
+    - Flatiron School
+    - Galvanize
+    - Actualize
   - You must maintain and document all of your bootcamp applications and keep us updated in a timely manner with your application processes.
 
 ### Refund Eligibility
@@ -50,7 +48,7 @@ Many of our program rules are enforced through a system of **strikes**. Students
     - Solution videos will be posted online for you to follow   
     - You are only exempt from this if you received a perfect score on Friday's assessment
   - Breaking any of these rules will earn you a strike.
-  
+
 - **Course Feedback**
 
   - Students are required to fill out short feedback forms **after every class**. Be honest in your feedback
