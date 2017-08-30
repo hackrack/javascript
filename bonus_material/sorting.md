@@ -145,7 +145,7 @@ You'll learn that there are some terribly clever sorting algorithms out there, b
 we'll fight those battles for another day.
 
 
-[algorithms]: https://en.wikipedia.org/wiki/Algorithm
+[algorithm]: https://en.wikipedia.org/wiki/Algorithm
 [bubble-sort]: https://en.wikipedia.org/wiki/Bubble_sort#Analysis
 [insertion-sort]: https://en.wikipedia.org/wiki/Insertion_sort
 [selection-sort]: https://en.wikipedia.org/wiki/Selection_sort
