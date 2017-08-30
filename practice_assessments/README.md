@@ -24,11 +24,17 @@ only the practice that corresponds to the upcoming assessment. Here is a schedul
 use. For example, before w1d5 you should have studied `practice_0` and `practice_1`.
 
 Take before w1d5: [practice_0][p0], [practice_1][p1]
+
 Take before w2d1: [practice_2][p2]
+
 Take before w2d5: [practice_3][p3]
+
 Take before w3d1: [practice_4][p4]
+
 Take before w3d5: [practice_5][p5]
+
 Take before w4d1: [practice_6][p6]
+
 Take before w4d5: [practice_7][p7]
 
 [p0]: ./practice_0
