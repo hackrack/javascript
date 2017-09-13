@@ -8,4 +8,4 @@ a challenge you are welcome to jump in.
 **You should not spend time on this bonus material if you do not feel 100%
 comfortable with the core weekly material**. If you master the material in the
 weekly folders, you'll be ready crush your interviews. Prioritize understanding
-the weekly material, and then come back to these bonuses
+the weekly material, and then come back to these bonuses.

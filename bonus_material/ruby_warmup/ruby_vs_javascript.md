@@ -82,7 +82,7 @@ evenRange(4, 12); // => [4, 6, 8, 10]
 
 ```ruby
 # Ruby
-def evenRange(min, max)
+def even_range(min, max)
   range = []
   i = min
 
@@ -97,7 +97,7 @@ def evenRange(min, max)
   return range
 end
 
-evenRange(4, 12) # => [4, 6, 8, 10]
+even_range(4, 12) # => [4, 6, 8, 10]
 ```
 
 Some more syntax differences to notice in the Ruby code above are:
@@ -106,6 +106,9 @@ Some more syntax differences to notice in the Ruby code above are:
 + lack of `var` when declaring variables
 + `==` instead of `===` to check for equality
 + `array << ele` instead of `array.push(ele)` to add an element to an array
+
+A small style preference used in ruby is `snake_case` instead of `mixedCase` when
+naming functions and variables.
 
 Other than these bits, you should feel quite at home reading this Ruby code.
 Tada! You now know two programming languages.

@@ -56,7 +56,7 @@ def longest_bigram(sentence)
     i += 1
   end
 
-  longest_bigram
+  return longest_bigram
 end
 ```
 
@@ -109,6 +109,63 @@ def odd_vowel_filter(str)
 end
 ```
 
+
+### wordplay
+
+```js
+// Write a function wordplay(str1, str2) that takes in two strings. If str2 can
+// be spelled using letters of str1, return an array containing the indices of
+// the letters in str1 that can be used to spell str2. If a letter appears more
+// than once in str1, choose its lower index. If str2 cannot be spelled, return false.
+//
+// Examples:
+//
+// wordplay('substandard', 'bad') => [2, 5, 7]
+// wordplay('shadowless', 'dashes') => [3, 2, 0, 1, 7, 0]
+// wordplay('cartoon', 'lineograph') => false
+
+
+// JavaScript
+function wordplay(str1, str2) {
+  var indices = [];
+
+  for (var i = 0; i < str2.length; i++) {
+    var char = str2[i];
+    var indexFound = str1.indexOf(char);
+
+    if (indexFound !== -1) {
+      indices.push(indexFound);
+    } else {
+      return false;
+    }
+  }
+
+  return indices;
+}
+```
+
+```ruby
+# Ruby
+def wordplay(str1, str2)
+  indices = []
+
+  i = 0
+  while i < str2.length
+    char = str2[i]
+    indexFound = str1.index(char)
+
+    if indexFound != nil
+      indices << indexFound
+    else
+      return false
+    end
+
+    i += 1
+  end
+
+  return indices
+end
+```
 
 ### nearestLarger
 
@@ -178,7 +235,7 @@ end
 ### bubbleSort
 
 ```js
-// Write a method that, when given an array of integers, sorts that array using the
+// Write a function that, when given an array of integers, sorts that array using the
 // "bubble sort" methodology and returns the array.
 //
 // Example:
@@ -232,5 +289,118 @@ def bubble_sort(arr)
   end
 
   return arr
+end
+```
+
+### numPrimeFactors
+
+```js
+// Write a function, numPrimeFactors(n), that takes in an a num an returns the number
+// of prime factors of the given num.
+//
+// Example:
+//
+// numPrimeFactors(18) => 2
+//
+// This is because the factors of 18 are 1, 2, 3, 6, 9, 18.
+// Of those factors, only 2 and 3 are the only primes.
+
+
+// JavaScript
+function factors(n) {
+  var factors = [];
+  var potential_factor = 1;
+
+  while (potential_factor <= n) {
+    if (n % potential_factor === 0) {
+      factors.push(potential_factor);
+    }
+
+    potential_factor++;
+  }
+
+  return factors;
+}
+
+
+function isPrime(n) {
+  if (n < 2) {
+    return false;
+  }
+
+  var potential_factor = 2;
+  while (potential_factor < n) {
+    if (n % potential_factor === 0) {
+      return false;
+    }
+
+    potential_factor++;
+  }
+
+  return true;
+}
+
+function numPrimeFactors(n) {
+  var factorsArr = factors(n);
+  var numPrimes = 0;
+
+
+  for (var i = 0; i < factorsArr.length; i++) {
+    if (isPrime(factorsArr[i])) {
+      numPrimes++;
+    }
+  }
+
+  return numPrimes;
+}
+```
+
+
+```ruby
+# Ruby
+def factors(n)
+  factors = []
+  potential_factor = 1
+  while potential_factor <= n
+    if n % potential_factor == 0
+      factors << potential_factor
+    end
+
+    potential_factor += 1
+  end
+  return factors
+end
+
+def prime?(n)
+  if n < 2
+    return false
+  end
+
+  potential_factor = 2
+  while potential_factor < n
+    if n % potential_factor == 0
+      return false
+    end
+
+    potential_factor = potential_factor + 1
+  end
+
+  return true
+end
+
+def num_prime_factors(n)
+  factors_arr = factors(n)
+  num_primes = 0
+
+  i = 0
+  while i < factors_arr.length
+    if prime?(factors_arr[i])
+      num_primes += 1
+    end
+
+    i += 1
+  end
+
+  return num_primes
 end
 ```
