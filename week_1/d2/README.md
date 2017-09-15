@@ -7,6 +7,11 @@
 + [Problem Set][problems-w1d2]
 + [Solutions][solutions-w1d2]
 
+
+### Homework
+
++ Complete the [Problem Set][problems-w1d2]
+
 [functions]: ./notes/functions.md
 [good-naming]: ./notes/good_naming.md
 [problems-w1d2]: ./problems/problem_set.md

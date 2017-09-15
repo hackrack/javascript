@@ -6,6 +6,10 @@
 + [Problem Set][problems-w4d2]
 + [Solutions][solutions-w4d2]
 
+### Homework
+
++ Complete the [Problem Set][problems-w4d2]
+
 
 [pairing-instructions]: ./pairing_instructions.md
 [problems-w4d2]: ./problems/problems.md

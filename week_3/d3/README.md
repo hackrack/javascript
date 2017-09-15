@@ -9,6 +9,11 @@
 + [Solutions][solutions-w3d3]
 
 
+
+### Homework
+
++ Complete the [Problems Set][problems-w3d3]
+
 [math-object]: ./notes/math_object.md
 [callbacks]: ./notes/callbacks.md
 [callback-methods]: ./notes/callback_methods.md

@@ -9,6 +9,11 @@
 + [Problem Set][problems-w1d1]
 + [Solutions][solutions-w1d1]
 
+### Homework
+
++ Complete the [Problem Set][problems-w1d1]
+
+
 [understanding-examples]: ./notes/understanding_examples.md
 [data-types]: ./notes/data_types.md
 [variables]: ./notes/variables.md

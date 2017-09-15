@@ -7,7 +7,12 @@
 + [Solutions][solutions-w4d4]
 
 
-+ Do [Practice Assessment 7][practice-7] to prep for the upcoming Friday assessment.
+
+### Homework
+
++ Complete the [Problem Set][problems-w4d4]
++ Study [Practice Assessment 7][practice-7] to prep for the upcoming W4D5 assessment.
+
 
 [whats-next]: ./whats_next.md
 [problems-w4d4]: ./problems/problems.md

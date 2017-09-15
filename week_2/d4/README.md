@@ -9,8 +9,10 @@
 + [Solutions I][solutions-1-w2d4]
 + [Solutions II][solutions-2-w2d4]
 
+### Homework
 
-+ Do [Practice Assessment 3][practice-3] to prep for the upcoming Friday assessment.
++ Complete the [Problem Set][problems-w2d4]
++ Study [Practice Assessment 3][practice-3] to prep for the upcoming W2D5 assessment.
 
 [strings-vs-arrays]: ./notes/strings_vs_arrays.md
 [style-guide]: ./notes/style_guide.md

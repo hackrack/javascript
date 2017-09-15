@@ -7,6 +7,11 @@
 + [Solutions][solutions-w2d2]
 
 
+### Homework
+
++ Complete the [Problem Set][problems-w2d2]
+
+
 [objects]: ./notes/objects.md
 [object-methods]: ./notes/object_methods.md
 [controlling-complexity]: ./notes/controlling_complexity.md

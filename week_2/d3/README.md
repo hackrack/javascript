@@ -8,6 +8,10 @@
 + [Solutions][solutions-w2d3]
 
 
+### Homework
+
++ Complete the [Problem Set][problems-w2d3]
+
 [nested-loops]: ./notes/nested_loops.md
 [multi-arrays]: ./notes/multidimensional_arrays.md
 

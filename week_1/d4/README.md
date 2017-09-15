@@ -4,18 +4,23 @@
 
 + [Installing Mocha][mocha]
 + [Practice Assessment 0][practice-0]
-  + Videos Password: **go_bootcamp_go**
-  + [Setup Walkthrough][assessment-setup]
-  + [average Solution][average]
-  + [tripler Solution][tripler]
-  + [oddRange Solution][odd-range]
 
 
 + [Problem Set][problems-w1d4]
 + [Solutions][solutions-w1d4]
 
 
-+ Do [Practice Assessment 1][practice-1] to prep for the upcoming Friday assessment.
+### Homework
+
++ Complete the [Problem Set][problems-w1d4]
++ Complete [Practice Assessment 0][practice-0] and watch the videos:
+  + Videos Password: **go_bootcamp_go**
+  + [Setup Walkthrough][assessment-setup]
+  + [average Solution][average]
+  + [tripler Solution][tripler]
+  + [oddRange Solution][odd-range]
+
++ Study [Practice Assessment 1][practice-1] to prep for the upcoming W1D5 assessment.
 
 
 [arrays]: ./notes/arrays.md

@@ -16,7 +16,11 @@
 + [Solutions][solutions-w3d4]
 
 
-+ Do [Practice Assessment 5][practice-5] to prep for the upcoming Friday assessment.
+### Homework
+
++ Complete [Data Model 1][data-model-1], [Data Model 2][data-model-2], and [Problem Set][problems-w3d4]
++ Study [Practice Assessment 5][practice-5] to prep for the upcoming W3D5 assessment.
+
 
 [data-modeling]: ./notes/data_modeling.md
 [data-model-1]: ./problems/data_model1.js
