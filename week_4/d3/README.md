@@ -1,6 +1,6 @@
 ## W4D3
 
-+ [Light Intro Recursion][recursion]
++ [Recursion][recursion]
 
 + [Problem Set][problems-w4d3]
 + [Solutions][solutions-w4d3]

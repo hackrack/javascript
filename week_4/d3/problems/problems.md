@@ -127,3 +127,78 @@
 // var arr1 = [1, 3, 5, 2, 4];
 // tripletSum(arr1, 8); // => [ [ 1, 3, 4 ], [ 1, 5, 2 ] ]
 ```
+
+## Recursive Problems
+
+Test yourself by redoing the `factorial`, `power`, and `fibonacci` problems from
+the readings a few times on your own. Then give these new recursive problems a shot:
+
+### countUp
+
+```js
+// Write a recursive function `countUp(num)` that takes in a number and prints all
+// whole numbers from `num` to 10. It should print 'done!' upon reaching 10.
+// Do this recursively, without loops. Reference the `countdown` example from the recursion notes.
+//
+// Hint: use `if (num === 10)...` as the base case
+//
+// Example:
+//
+// countUp(3); // prints:
+// 3
+// 4
+// 5
+// 6
+// 7
+// 8
+// 9
+// done!
+```
+
+### countHalves
+
+```js
+// Write a recursive function `countHalves(n)` that takes in a number and prints
+// n, n/2, n/4, n/8, n / 16, and so on. This process should stop once the result goes
+// below 1. It should print `done!` upon going below 1.
+//
+// Hint: use `if(n < 1)...` as the base case
+//
+// Example:
+//
+// countHalves(20); // prints
+// 20
+// 10
+// 5
+// 2.5
+// 1.25
+// done!
+//
+//
+// countHalves(100); // prints
+// 100
+// 50
+// 25
+// 12.5
+// 6.25
+// 3.125
+// 1.5625
+// done!
+```
+
+### recursiveMultiply
+
+```js
+// Write a recursive function `multiply(a, b)` that takes in two numbers and
+// returns their product. Do this recursively, without loops. You may assume
+// that `a` and `b` are nonnegative numbers.
+//
+// Hint 1: use `if (a === 0)` as the base case
+// Hint 2: how can you frame a multiplication in terms of a repeated addition?
+//
+// Example:
+//
+// multiply(3, 5); // => 15
+// multiply(6, 4); // => 24
+// multiply(0, 100); // => 0
+```

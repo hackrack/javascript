@@ -116,7 +116,7 @@ function tripletSum(array, sum) {
 
       for (var k = j + 1; k < array.length; k++) {
         var num3 = array[k];
-        
+
         if (num1 + num2 + num3 === sum) {
           triplets.push([num1, num2, num3]);
         }
@@ -125,4 +125,33 @@ function tripletSum(array, sum) {
   }
 
   return triplets;
+}
+
+function countUp(num) {
+  if (num === 10) {
+    console.log('done!');
+    return;
+  }
+
+  console.log(num);
+  countUp(num + 1);
+}
+
+function countHalves(n) {
+  if (n < 1) {
+    console.log('done!');
+    return;
+  }
+
+  console.log(n);
+  countHalves(n / 2);
+}
+
+function multiply(a, b) {
+  if (a === 0) {
+    return 0;
+  }
+
+  var answer = b + multiply(a - 1, b);
+  return answer;
 }

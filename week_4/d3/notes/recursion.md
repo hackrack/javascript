@@ -45,17 +45,17 @@ the definition as usual. That means we print out "hello" and call `sayHello` aga
 + `sayHello3` prints "hello" and calls `sayHello4`
 + ... and this pattern continues forever!
 
-Our `sayHello` function enters an infinite loop where 1 call to the function triggers
+Our `sayHello` function enters an infinite loop where one call to the function triggers
 another call. And that call triggers yet another call, etc.. If you run this code,
 you will enter an infinite loop. However, the program will crash with an error.
-The nature of this error requires understanding of the inner workings of the computer on
-but the gist is that every call to a function takes up a piece of your computer's memory.
+The nature of this error requires understanding of the inner workings of the computer.
+The gist is that every call to a function takes up a piece of your computer's memory.
 Since our code continuously calls functions forever, we run out of memory and crash!
 
 ### Recursive Countdown
 
 In our previous example we saw how our recursive function crashed because it entered
-a infinite loop. Of course useful recursive functions should not crash, so let's
+an infinite loop. Of course useful recursive functions should not crash, so let's
 go through the process of building one up!
 
 Let's build a recursive `countDown` that starts ticking down numbers:
@@ -135,16 +135,46 @@ function countDown(num) {
 Disclaimer! At this point, solving problems using recursion may seem like magic.
 If you find the following example confusing, don't worry it's suppose to be, no need
 to wrack our brains on it now. Spend your time studying the previous `countDown`
-as it showcases the fundamental structure of recursion.
+as it showcases the fundamental structure of recursion. Once you are comfortable
+with that, come back to these recursive problems!
+
+### factorial
 
 Recall our factorial problem from earlier in the course:
 
-> Write a function `factorial(n)` which takes a number and returns the factorial of n.
-> A factorial is the product of all whole numbers between 1 and n, inclusive.
+```
+Write a function `factorial(n)` which takes a number and returns the factorial of n.
+A factorial is the product of all whole numbers between 1 and n, inclusive.
+For example, `factorial(5)` is 5 * 4 * 3 * 2 * 1 = 120.
+```
 
 How can we solve this problem using recursion? Notice that the structure of `factorial`
 has us take decreasing numbers similar to the `countDown`. However, this time we need
-to keep multiplying them together:
+to keep multiplying them together.
+
+If we lay out the math used to calculate the factorial of some numbers, we'll notice
+a pattern:
+
+`factorial(5) = 5 * 4 * 3 * 2 * 1`
+`factorial(4) = 4 * 3 * 2 * 1`
+`factorial(3) = 3 * 2 * 1`
+`factorial(2) = 2 * 1`
+`factorial(1) = 1` base case
+
+Let's see the pattern programmatically. We can find the factorial of a number by
+using the factorial of another number:
+
+`factorial(5) = 5 * factorial(4)`
+`factorial(4) = 4 * factorial(3)`
+`factorial(3) = 3 * factorial(2)`
+`factorial(2) = 2 * factorial(1)`
+`factorial(1) = 1` base case
+
+Or in general, if `n` is some number:
+
+`factorial(n) = n * factorial(n - 1)`
+
+Now let's implement factorial with some recursive JavaScript:
 
 ```js
 function factorial(n) {
@@ -157,5 +187,104 @@ function factorial(n) {
 
 factorial(5); // => 120
 ```
+
+### power
+
+Let's use this same reasoning to solve `power` recursively:
+
+```
+Write a function `power(base, exp)` that takes in two numbers.
+The function should return `base` raised to the `exponent` power.
+For example `power(2, 5)` is 2 * 2 * 2 * 2 * 2 = 32.
+```
+
+Let's lay out the mathematical pattern for power:
+
+`power(2, 5) = 2 * 2 * 2 * 2 * 2`
+`power(2, 4) = 2 * 2 * 2 * 2`
+`power(2, 3) = 2 * 2 * 2`
+`power(2, 2) = 2 * 2`
+`power(2, 1) = 2`
+`power(2, 0) = 1` base case
+
+Let's see the pattern programmatically:
+
+`power(2, 5) = 2 * power(2, 4)`
+`power(2, 4) = 2 * power(2, 3)`
+`power(2, 3) = 2 * power(2, 2)`
+`power(2, 2) = 2 * power(2, 1)`
+`power(2, 1) = 2 * power(2, 0)`
+`power(2, 0) = 1` base case
+
+Or in general, if `base` and `exp` are some numbers.
+
+`power(base, exp) = base * power(base, exp - 1)`
+
+Let's do it using JavaScript:
+
+```js
+function power(base, exp) {
+  if (exp === 0) {  // base case
+    return 1;
+  }
+
+  return base * power(base, exp - 1);
+}
+
+power(2, 5); // => 32
+```
+
+### fib
+
+Let's take a look at a classic recursive problem. The fibonacci sequence!
+
+```
+Write a function fib(n) that takes in a number and returns the nth number of
+the fibonacci sequence.
+In the fibonacci sequence, the 1st number is 1 and the 2nd number is 1. To generate the
+next number in the sequence, we take the sum of the previous two fibonacci numbers.
+For example the first 5 numbers of the fibonacci sequence are `1, 1, 2, 3, 5`
+
+Examples:
+
+fib(1) // => 1
+fib(2) // => 1
+fib(3) // => 2
+fib(4) // => 3
+fib(5) // => 5
+fib(6) // => 8
+fib(7) // => 13
+```
+
+To get a fibonacci number, we need to take the sum of the previous two.
+Take a look at the following ways we can describe fib.
+
+`fib(5) = fib(4) + fib(3)`
+`fib(4) = fib(3) + fib(2)`
+`fib(3) = fib(2) + fib(1)`
+`fib(2) = 1` base case
+`fib(1) = 1` base case
+
+In general:
+
+`fib(n) = fib(n - 1) + fib(n - 2)`
+
+Finally, let's implement `fib` using code:
+
+```js
+function fib(n) {
+  if (n === 1 || n === 2) {
+    return 1;
+  }
+
+  var answer = fib(n - 1) + fib(n - 2);
+  return answer;
+}
+```
+
+This should feel like magic! To make sense of recursive code like `fib`, use abstraction
+and helper functions. Recursion is "different" from using regular helper functions because
+we are using the *same* function. However, you can use abstraction in the same way.
+If we wanted to decompose `fib(5)` we can decompose it into `fib(4)` + `fib(3)`!
 
 [recursion-wiki]: https://en.wikipedia.org/wiki/Recursion
