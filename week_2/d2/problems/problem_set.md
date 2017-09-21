@@ -157,6 +157,56 @@
 // countScores(peeps); //=> { Anthony: 4, Fred: 4, Winnie: 6 }
 ```
 
+## Object Muscle Memory
+
+Let's drill in that object syntax. **Type out each snippet 5 times to practice.**
+Be sure to test your code by running it after each repetition. You'll be surprised and
+also annoyed at what details you missed! Learn from those typos.
+
+```js
+var dog = {name: 'Fido', color: 'brown'};
+console.log(dog);
+
+dog.age = 3;
+dog.favoriteFoods = ['sausage', 'brisket'];
+console.log(dog);
+
+var k = 'isHungry';
+dog[k] = true;
+console.log(dog);
+```
+
+```js
+function printObject(obj) {
+  for (var key in obj) {
+    var val = obj[key];
+    console.log(key + ':' + val);
+  }
+}
+
+var dog = {name: 'Fido', color: 'brown'};
+printObject(dog);
+```
+
+```js
+function printInstructors(instructors) {
+  for (var i = 0; i < instructors.length; i++) {
+    var instructor = instructors[i];
+    console.log(instructor.first + ' ' + instructor.last);
+  }
+}
+
+var arr = [
+  {first: 'Mashu', last: 'Duek'},
+  {first: 'Matt', last: 'Haws'},
+  {first: 'Matthias', last: 'Jenny'},
+  {first: 'Maurice', last: 'Roach'},
+  {first: 'Mike', last: 'Boan'}
+];
+
+printInstructors(arr);
+```
+
 ## Decomposing With Functions
 
 In these exercises we will be practicing decomposition by building multiple functions.

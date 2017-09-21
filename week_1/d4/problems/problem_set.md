@@ -77,9 +77,10 @@
 
 ### Array Muscle Memory
 
-Practice typing the syntax for iterating through arrays. Type each snippet 5 times each.
-Focus on proper style and indentation. Be sure to test your code after each time you type
-it.
+Practice typing the syntax for iterating through arrays. **Type each snippet 5 times each.**
+Focus on proper style and indentation. Be sure to test your code by running it after
+each repetition. You'll be surprised and also annoyed at what details you missed!
+Learn from those typos.
 
 ```js
 function printForwards(arr) {

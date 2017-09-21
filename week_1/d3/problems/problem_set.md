@@ -148,9 +148,10 @@
 
 ### Loop Muscle Memory
 
-Practice typing the syntax for loops! Type each snippet 5 times. Focus on using
-proper style and indentation. Be sure to run the code every time you finish typing it
-to make sure you didn't make an typos.
+Practice typing the syntax for loops! **Type each snippet 5 times.** Focus on using
+proper style and indentation. Be sure to test your code by running it after
+each repetition. You'll be surprised and also annoyed at what details you missed!
+Learn from those typos.
 
 ```js
 function printForwards(start, end) {

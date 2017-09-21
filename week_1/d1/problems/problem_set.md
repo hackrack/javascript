@@ -208,22 +208,22 @@ if (num % 2 === 0) {
 
 ### Conditional Muscle Memory
 
-Practice typing the syntax for conditionals. Type each snippet 10 times each to
-burn the muscle memory into your typing fingers! Be sure to use proper spacing and
+Practice typing the syntax for conditionals. **Type each snippet 10 times each to
+burn the muscle memory into your typing fingers!** Be sure to use proper spacing and
 indentation, type it **exactly** as shown below. Run the code after each time to make
 sure it runs. You'll realize how easy it is to forget parentheses or braces. Syntax
 errors like this will cause your code to be totally misunderstood by the computer.
 Practice, practice, practice!
 
 ```js
-var num = 11; // feel free to change the value of this variable;
+var num = 11; // feel free to change the value of this variable
 if (num > 5) {
   console.log('if');
 }
 ```
 
 ```js
-var num = 5; // feel free to change the value of this variable;
+var num = 5; // feel free to change the value of this variable
 if (num > 5) {
   console.log('if');
 } else {
@@ -232,7 +232,7 @@ if (num > 5) {
 ```
 
 ```js
-var num = 0; // feel free to change the value of this variable;
+var num = 0; // feel free to change the value of this variable
 if (num < 0) {
   console.log('if');
 } else if (num > 0) {
