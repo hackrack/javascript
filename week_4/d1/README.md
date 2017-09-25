@@ -4,14 +4,13 @@
 + Assessment Review
 
 
-+ [Problem Set][problems-w4d1]
-+ [Solutions][solutions-w4d1]
++ [Problem Set][w4d1-pset]
 
 ### Homework
 
-+ Complete [Problem Set][problems-w4d1]
++ Complete [Problem Set][w4d1-pset]
 + Complete and submit a fully corrected Assessment 6 by W4D5's class.
 
 
-[problems-w4d1]: ./problems/problems.md
+[w4d1-pset]: ./w4d1_pset.zip
 [solutions-w4d1]: ./problems/solution.js

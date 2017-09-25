@@ -3,18 +3,14 @@
 + [What's Next][whats-next]
 
 
-+ [Problem Set][problems-w4d4]
-+ [Solutions][solutions-w4d4]
-
-
++ [Problem Set][w4d4-pset]
 
 ### Homework
 
-+ Complete the [Problem Set][problems-w4d4]
++ Complete the [Problem Set][w4d4-pset]
 + Study [Practice Assessment 7][practice-7] to prep for the upcoming W4D5 assessment.
 
 
 [whats-next]: ./whats_next.md
-[problems-w4d4]: ./problems/problems.md
-[solutions-w4d4]: ./problems/solutions.js
+[w4d4-pset]: ./w4d4_pset.zip
 [practice-7]: /practice_assessments/practice_7

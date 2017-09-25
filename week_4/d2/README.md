@@ -3,14 +3,12 @@
 + [Driver-Navigator Pair Instructions][pairing-instructions]
 
 
-+ [Problem Set][problems-w4d2]
-+ [Solutions][solutions-w4d2]
++ [Problem Set][w4d2-pset]
 
 ### Homework
 
-+ Complete the [Problem Set][problems-w4d2]
++ Complete the [Problem Set][w4d2-pset]
 
 
 [pairing-instructions]: ./pairing_instructions.md
-[problems-w4d2]: ./problems/problems.md
-[solutions-w4d2]: ./problems/solution.js
+[w4d2-pset]: ./w4d2_pset.zip
