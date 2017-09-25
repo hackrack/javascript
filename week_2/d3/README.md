@@ -4,16 +4,13 @@
 + [Multdimensional Arrays][multi-arrays]
 
 
-+ [Problem Set][problems-w2d3]
-+ [Solutions][solutions-w2d3]
++ [Problem Set][w2d3-pset]
 
 
 ### Homework
 
-+ Complete the [Problem Set][problems-w2d3]
++ Complete the [Problem Set][w2d3-pset]
 
 [nested-loops]: ./notes/nested_loops.md
 [multi-arrays]: ./notes/multidimensional_arrays.md
-
-[problems-w2d3]: ./problems/problem_set.md
-[solutions-w2d3]: ./problems/solution.js
+[w2d3-pset]: ./w2d3_pset.zip

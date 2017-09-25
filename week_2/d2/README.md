@@ -3,17 +3,14 @@
 + [Controlling Complexity][controlling-complexity]
 + [Objects][objects]
 + [Object Methods][object-methods]
-+ [Problem Set][problems-w2d2]
-+ [Solutions][solutions-w2d2]
++ [Problem Set][w2d2-pset]
 
 
 ### Homework
 
-+ Complete the [Problem Set][problems-w2d2]
-
++ Complete the [Problem Set][w2d2-pset]
 
 [objects]: ./notes/objects.md
 [object-methods]: ./notes/object_methods.md
 [controlling-complexity]: ./notes/controlling_complexity.md
-[problems-w2d2]: ./problems/problem_set.md
-[solutions-w2d2]: ./problems/solution.js
+[w2d2-pset]: ./w2d2_pset.zip

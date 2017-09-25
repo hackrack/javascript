@@ -3,15 +3,13 @@
 + Assessment 2
 + Assessment Review
 
-
-+ [Problem Set][problems-w2d1]
-+ [Solutions][solutions-w2d1]
-
++ [New Problem Set Format][pset-format]
++ [Problem Set][w2d1-pset]
 
 ### Homework
 
-+ Complete the [Problem Set][problems-w2d1]
++ Complete the [Problem Set][w2d1-pset]
 + Complete and submit a fully corrected Assessment 2 by W2D5's class.
 
-[problems-w2d1]: ./problems/problem_set.md
-[solutions-w2d1]: ./problems/solution.js
+[w2d1-pset]: ./w2d1_pset.zip
+[pset-format]: ./problem_set_format.md
