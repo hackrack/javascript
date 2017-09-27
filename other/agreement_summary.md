@@ -57,8 +57,7 @@ Many of our program rules are enforced through a system of **strikes**. Students
   - Students are required to fill out short feedback forms **after every class**. Be honest in your feedback
   as we will use it to make sure we are providing the best prep experience possible. You should fill out your feedback for
   the night when class concludes at 9:00pm. Be sure to do this before you leave!
-    - To fill out feedback, log into [progress tracker][progress-tracker]. Log in with your email address,
-    your default password is **password**
+    - You will be receiving an email at the end of class containing a link to fill out the feedback.
 
 - **Post-Course**
   - Failing to respond to an email from App Academy in 48 hours will earn you a strike.
