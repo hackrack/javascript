@@ -14,7 +14,9 @@ var tripletSum = tryRequire('../problems/8_triplet_sum.js');
 var factorial = tryRequire('../problems/9_factorial.js');
 var power = tryRequire('../problems/10_power.js');
 var fibonacci = tryRequire('../problems/11_fibonacci.js');
-var multiply = tryRequire('../problems/14_recursive_multiply.js');
+var countUp = tryRequire('../problems/12_count_up.js');
+var countHalves = tryRequire('../problems/13_count_halves.js');
+var multiply = tryRequire('../problems/14_multiply.js');
 
 describe('greatestCommonFactor()', function () {
   it('should return the greatest common factor between num1 and num2', function () {
@@ -135,6 +137,18 @@ describe('fibonacci()', function () {
     assert.equal(fibonacci(3), 2);
     assert.equal(fibonacci(5), 5);
     assert.equal(fibonacci(10), 55);
+  });
+});
+
+
+describe('countUp()', function () {
+  it('test this function manually', function () {
+  });
+});
+
+
+describe('countHalves()', function () {
+  it('test this function manually', function () {
   });
 });
 
