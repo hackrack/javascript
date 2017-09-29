@@ -141,6 +141,7 @@
 //
 // isPrime(2); // => true
 // isPrime(10); // => false
+// isPrime(11); // => true
 // isPrime(15485863); // => true
 // isPrime(3548563); // => false
 ```
