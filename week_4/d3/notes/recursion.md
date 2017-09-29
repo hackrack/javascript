@@ -155,20 +155,27 @@ to keep multiplying them together.
 If we lay out the math used to calculate the factorial of some numbers, we'll notice
 a pattern:
 
-`factorial(5) = 5 * 4 * 3 * 2 * 1`
-`factorial(4) = 4 * 3 * 2 * 1`
-`factorial(3) = 3 * 2 * 1`
-`factorial(2) = 2 * 1`
-`factorial(1) = 1` base case
+```
+factorial(5) = 5 * 4 * 3 * 2 * 1
+factorial(4) = 4 * 3 * 2 * 1
+factorial(3) = 3 * 2 * 1
+factorial(2) = 2 * 1
+factorial(1) = 1 (base case)
+```
+
+In the outline above, notice that as the input number becomes smaller and smaller, the problem we solve also becomes smaller.
+There are less multiplications that need to take place!
 
 Let's see the pattern programmatically. We can find the factorial of a number by
 using the factorial of another number:
 
-`factorial(5) = 5 * factorial(4)`
-`factorial(4) = 4 * factorial(3)`
-`factorial(3) = 3 * factorial(2)`
-`factorial(2) = 2 * factorial(1)`
-`factorial(1) = 1` base case
+```
+factorial(5) = 5 * factorial(4)
+factorial(4) = 4 * factorial(3)
+factorial(3) = 3 * factorial(2)
+factorial(2) = 2 * factorial(1)
+factorial(1) = 1 (base case)
+```
 
 Or in general, if `n` is some number:
 
@@ -200,21 +207,25 @@ For example `power(2, 5)` is 2 * 2 * 2 * 2 * 2 = 32.
 
 Let's lay out the mathematical pattern for power:
 
-`power(2, 5) = 2 * 2 * 2 * 2 * 2`
-`power(2, 4) = 2 * 2 * 2 * 2`
-`power(2, 3) = 2 * 2 * 2`
-`power(2, 2) = 2 * 2`
-`power(2, 1) = 2`
-`power(2, 0) = 1` base case
+```
+power(2, 5) = 2 * 2 * 2 * 2 * 2
+power(2, 4) = 2 * 2 * 2 * 2
+power(2, 3) = 2 * 2 * 2
+power(2, 2) = 2 * 2
+power(2, 1) = 2
+power(2, 0) = 1 (base case)
+```
 
 Let's see the pattern programmatically:
 
-`power(2, 5) = 2 * power(2, 4)`
-`power(2, 4) = 2 * power(2, 3)`
-`power(2, 3) = 2 * power(2, 2)`
-`power(2, 2) = 2 * power(2, 1)`
-`power(2, 1) = 2 * power(2, 0)`
-`power(2, 0) = 1` base case
+```
+power(2, 5) = 2 * power(2, 4)
+power(2, 4) = 2 * power(2, 3)
+power(2, 3) = 2 * power(2, 2)
+power(2, 2) = 2 * power(2, 1)
+power(2, 1) = 2 * power(2, 0)
+power(2, 0) = 1 (base case)
+```
 
 Or in general, if `base` and `exp` are some numbers.
 
@@ -259,11 +270,13 @@ fib(7) // => 13
 To get a fibonacci number, we need to take the sum of the previous two.
 Take a look at the following ways we can describe fib.
 
-`fib(5) = fib(4) + fib(3)`
-`fib(4) = fib(3) + fib(2)`
-`fib(3) = fib(2) + fib(1)`
-`fib(2) = 1` base case
-`fib(1) = 1` base case
+```
+fib(5) = fib(4) + fib(3)
+fib(4) = fib(3) + fib(2)
+fib(3) = fib(2) + fib(1)
+fib(2) = 1` base case
+fib(1) = 1` base case
+```
 
 In general:
 
@@ -286,5 +299,18 @@ This should feel like magic! To make sense of recursive code like `fib`, use abs
 and helper functions. Recursion is "different" from using regular helper functions because
 we are using the *same* function. However, you can use abstraction in the same way.
 If we wanted to decompose `fib(5)` we can decompose it into `fib(4)` + `fib(3)`!
+Take a second to appreciate the beauty of our recursive `fib` function! So cool.
+
+### When is recursion apppropriate?
+
+Recursion allows us to solve problems in an elegant way. However, recursion is a tool that
+is only appropriate for certain problems. Look to the struture of a problem to figure out
+if it can be solved recursively. **Recursion is used to solve problems that can be decomposed
+into smaller versions of the *same* problem.** For example we can decompose `fib(n)` into
+`fib(n - 1) + fib(n - 2)`. Intuitively, we know that `fib(n - 1)` is a "smaller" or "easier" 
+problem than `fib(n)`. The easiest subproblem is `fib(1)` or `fib(2)` because the answer is simply 1; 
+this is an assumption in the fibonacci sequence. We use the easiest subproblems as the base case in recursion.
+
+
 
 [recursion-wiki]: https://en.wikipedia.org/wiki/Recursion
