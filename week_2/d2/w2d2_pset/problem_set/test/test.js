@@ -4,8 +4,8 @@ var tryRequire = require('../utils/try_require.js');
 var assert = require('assert');
 
 var catBuilder = tryRequire('../problems/1_cat_builder.js');
-var printObject = tryRequire('../problems/2_print_object.js');
 var getFullname = tryRequire('../problems/3_get_fullname.js');
+var valuePair = tryRequire('../problems/4_value_pair.js');
 var doesKeyExist = tryRequire('../problems/5_does_key_exist.js');
 var adults = tryRequire('../problems/6_adults.js');
 var hasFavoriteFood = tryRequire('../problems/7_has_favorite_food.js');
@@ -36,6 +36,12 @@ describe('catBuilder()', function () {
   });
 });
 
+describe('printObject()', function () {
+  it('test this function manually', function () {
+
+  });
+});
+
 
 describe('getFullName()', function () {
   it("should return string of the person's full name", function () {
@@ -44,6 +50,17 @@ describe('getFullName()', function () {
 
     assert.equal(getFullname(p1), 'John Doe');
     assert.equal(getFullname(p2), 'Charlie Brown');
+  });
+});
+
+
+describe('valuePair()', function () {
+  it("should return an array containing the corresponding values of the objects for the given key", function () {
+    var object1 = {name: 'One', location: 'NY', age: 3};
+    var object2 = {name: 'Two', location: 'SF'};
+
+    assert.deepEqual(valuePair(object1, object2, 'location'), [ 'NY', 'SF' ]);
+    assert.deepEqual(valuePair(object1, object2, 'name'), [ 'One', 'Two' ]);
   });
 });
 
