@@ -3,9 +3,9 @@
 var tryRequire = require('../utils/try_require.js');
 var assert = require('assert');
 
-var countOfLetter = tryRequire('../problems/1_count_of_letter.js');
-var countRepeats = tryRequire('../problems/2_count_repeats.js');
-var pairsToString = tryRequire('../problems/3_pairs_to_string.js');
+var countOfLetter = tryRequire('../problems/6_count_of_letter.js');
+var countRepeats = tryRequire('../problems/7_count_repeats.js');
+var pairsToString = tryRequire('../problems/8_pairs_to_string.js');
 
 describe('countOfLetter()', function () {
   it('should return the number of times char appears in the string', function () {
