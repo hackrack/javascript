@@ -12,7 +12,7 @@
 + [Interview Tips][interview-tips]
 
 
-+ [Problem Set][problems-w3d4]
++ [Problem Set][w3d4-pset]
 
 
 ### Homework
@@ -28,5 +28,5 @@
 [data-model-2-sol]: ./data_model_pset/data_model2_solution.js
 [interview-tips]: ./notes/interview_tips.md
 [data-model-notes]: ./notes/data_modeling.md
-[problems-w3d4]: ./w3d4_pset.zip
+[w3d4-pset]: ./w3d4_pset.zip
 [practice-5]: /practice_assessments/practice_5

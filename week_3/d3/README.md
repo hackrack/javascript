@@ -5,17 +5,15 @@
 + [Callback Methods][callback-methods]
 
 
-+ [Problems Set][problems-w3d3]
-+ [Solutions][solutions-w3d3]
-
++ [Problem Set][w3d3-pset]
 
 
 ### Homework
 
-+ Complete the [Problems Set][problems-w3d3]
++ Complete the [Problem Set][w3d3-pset]
 
 [math-object]: ./notes/math_object.md
 [callbacks]: ./notes/callbacks.md
 [callback-methods]: ./notes/callback_methods.md
-[problems-w3d3]: ./problems/problem_set.md
+[w3d3-pset]: ./w3d3_pset.zip
 [solutions-w3d3]: ./problems/solution.js
