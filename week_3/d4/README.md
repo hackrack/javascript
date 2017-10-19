@@ -13,7 +13,6 @@
 
 
 + [Problem Set][problems-w3d4]
-+ [Solutions][solutions-w3d4]
 
 
 ### Homework
@@ -23,12 +22,11 @@
 
 
 [data-modeling]: ./notes/data_modeling.md
-[data-model-1]: ./problems/data_model1.js
-[data-model-1-sol]: ./problems/data_model1_solution.js
-[data-model-2]: ./problems/data_model2.js
-[data-model-2-sol]: ./problems/data_model2_solution.js
+[data-model-1]: ./data_model_pset/data_model1.js
+[data-model-1-sol]: ./data_model_pset/data_model1_solution.js
+[data-model-2]: ./data_model_pset/data_model2.js
+[data-model-2-sol]: ./data_model_pset/data_model2_solution.js
 [interview-tips]: ./notes/interview_tips.md
 [data-model-notes]: ./notes/data_modeling.md
-[problems-w3d4]: ./problems/problem_set.md
-[solutions-w3d4]: ./problems/solution.js
+[problems-w3d4]: ./w3d4_pset.zip
 [practice-5]: /practice_assessments/practice_5
