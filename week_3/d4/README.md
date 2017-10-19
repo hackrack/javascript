@@ -17,7 +17,7 @@
 
 ### Homework
 
-+ Complete [Data Model 1][data-model-1], [Data Model 2][data-model-2], and [Problem Set][problems-w3d4]
++ Complete [Data Model 1][data-model-1], [Data Model 2][data-model-2], and [Problem Set][w3d4-pset]
 + Study [Practice Assessment 5][practice-5] to prep for the upcoming W3D5 assessment.
 
 
