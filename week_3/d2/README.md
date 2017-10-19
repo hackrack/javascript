@@ -2,16 +2,14 @@
 
 + [Scope][scope]
 
-
-+ [Problem Set][problems-w3d2]
-+ [Solutions][solutions-w3d2]
++ [Scope Problems][scope-problems-w3d2]
++ [Problem Set][problem-set]
 
 
 ### Homework
 
-+ Complete the [Problem Set][problems-w3d2]
-
++ Complete [Scope Problems][scope-problems-w3d2] and [Problem Set][problem-set]
 
 [scope]: ./notes/scope.md
-[problems-w3d2]: ./problems/problem_set.md
-[solutions-w3d2]: ./problems/solution.js
+[scope-problems-w3d2]: ./problems/problem_set.md
+[problem-set]: ./w3d2_pset.zip
