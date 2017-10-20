@@ -48,7 +48,7 @@ Try asking yourself these questions to get the gears turning:
 + Can I decompose this into a sub problem?
   + What helper functions?
 + Is that an array?
-  + Well time to iterate with a loop (probably)
+  + Well, time to iterate with a loop (probably)
 
 You don't need a detail strategy that you will strictly follow. Just have an idea
 of the big picture. As you write the code and explain, you may find nuances of the
