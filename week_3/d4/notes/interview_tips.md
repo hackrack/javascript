@@ -185,7 +185,7 @@ to common questions you may have about the interview:
   whether or not you solved the problem.
 
 + **Where will I be typing my code?**
-  + You will be typing your code in [kobra.io][kobra]. Both you and your interviewer
+  + You will be typing your code in an online collaborative text editor, such as [codeshare.io][codeshare]. Both you and your interviewer
   will be able to view and make changes to the file. Perhaps, practice typing code
   in kobra (be sure to set the language to JS). Small things like being familiar
   with the code environment will help put your nerves at ease during an interview.
@@ -224,4 +224,4 @@ clarification if you detect confusion (*"does that make sense?"*)
 More on pairing like this in week 4. So stay tuned!
 
 
-[kobra]: https://kobra.io/
+[codeshare]: https://codeshare.io/
