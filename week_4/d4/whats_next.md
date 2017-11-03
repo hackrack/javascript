@@ -59,6 +59,9 @@ App Academy will send you an email after you've completed the course with a link
 In either case, you will have an expedited process, skipping the initial coding
 challenges.
 
+**You should not use another classmate's link to book your interview! You must submit a full-time application for yourself. Otherwise you won't have an application in our system. Do not share your interview calendar link with other classmates** Please follow the directions above.
+
+
 Best of luck on your interviews prep graduate. Remember your training!
 
 [mock-interviews]: /other/mock_interviews.md

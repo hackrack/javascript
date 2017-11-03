@@ -301,7 +301,7 @@ we are using the *same* function. However, you can use abstraction in the same w
 If we wanted to decompose `fib(5)` we can decompose it into `fib(4)` + `fib(3)`!
 Take a second to appreciate the beauty of our recursive `fib` function! So cool.
 
-### When is recursion apppropriate?
+### When is recursion appropriate?
 
 Recursion allows us to solve problems in an elegant way. However, recursion is a tool that
 is only appropriate for certain problems. Look to the struture of a problem to figure out
