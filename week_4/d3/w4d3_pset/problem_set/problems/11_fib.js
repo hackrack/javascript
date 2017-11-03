@@ -22,9 +22,9 @@ fib(6) // => 8
 fib(7) // => 13
 ***********************************************************************/
 
-function fibonacci(n) {
+function fib(n) {
 
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
-module.exports = fibonacci;
+module.exports = fib;

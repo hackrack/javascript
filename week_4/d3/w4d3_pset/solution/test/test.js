@@ -13,7 +13,7 @@ var oddOnesOut = tryRequire('../problems/7_odd_ones_out.js');
 var tripletSum = tryRequire('../problems/8_triplet_sum.js');
 var factorial = tryRequire('../problems/9_factorial.js');
 var power = tryRequire('../problems/10_power.js');
-var fibonacci = tryRequire('../problems/11_fibonacci.js');
+var fib = tryRequire('../problems/11_fib.js');
 var countUp = tryRequire('../problems/12_count_up.js');
 var countHalves = tryRequire('../problems/13_count_halves.js');
 var multiply = tryRequire('../problems/14_multiply.js');
@@ -130,13 +130,13 @@ describe('power()', function () {
 });
 
 
-describe('fibonacci()', function () {
+describe('fib()', function () {
   it('should return the nth number of the fibonacci sequence', function () {
-    assert.equal(fibonacci(1), 1);
-    assert.equal(fibonacci(2), 1);
-    assert.equal(fibonacci(3), 2);
-    assert.equal(fibonacci(5), 5);
-    assert.equal(fibonacci(10), 55);
+    assert.equal(fib(1), 1);
+    assert.equal(fib(2), 1);
+    assert.equal(fib(3), 2);
+    assert.equal(fib(5), 5);
+    assert.equal(fib(10), 55);
   });
 });
 

