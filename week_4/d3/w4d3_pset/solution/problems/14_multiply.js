@@ -1,6 +1,7 @@
 /***********************************************************************
 Write a recursive function `multiply(a, b)` that takes in two numbers
-and returns their product. Do this recursively, without loops. You may
+and returns their product. You may not use the multiplication operation `*` in
+your solution :). Do this recursively, without loops. You may
 assume that `a` and `b` are nonnegative numbers.
 
 Hint 1: use `if (a === 0)` as the base case
