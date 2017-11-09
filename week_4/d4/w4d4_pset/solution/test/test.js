@@ -7,6 +7,7 @@ var longestBigram = tryRequire('../problems/1_longest_bigram.js');
 var maxAdjacentSum = tryRequire('../problems/2_max_adjacent_sum.js');
 var opposingSums = tryRequire('../problems/3_opposing_sums.js');
 var additionSequence = tryRequire('../problems/4_addition_sequence.js');
+var flatten = tryRequire('../problems/5_flatten.js');
 
 describe('longestBigram()', function () {
   it('should return the longest combination of 2 adjacent words', function () {
@@ -15,7 +16,6 @@ describe('longestBigram()', function () {
     var str3 = 'go home to eat';
     var str4 = 'his last assessment is fun';
     var str5 = 'Weddings are basically funerals with cake.';
-
 
     assert.equal(longestBigram(str1), 'measure twice');
     assert.equal(longestBigram(str2), 'must have');
@@ -60,5 +60,22 @@ describe('additionSequence()', function () {
 
     assert.deepEqual(additionSequence(arr1, seq1), result1);
     assert.deepEqual(additionSequence(arr2, seq2), result2);
+  });
+});
+
+describe('flatten()', function () {
+  it('should return a flat array', function () {
+    var array1 = [1, 2, [[3, 4], [5, [6]]], [7, 8]];
+    var result1 = [1, 2, 3, 4, 5, 6, 7, 8];
+
+    var array2 = ['this', ['problem', 'is'], [['pretty', 'tough'], [[':)']]]];
+    var result2 = ['this', 'problem', 'is', 'pretty', 'tough', ':)'];
+
+    var array3 = 'base case';
+    var result3 = ['base case'];
+
+    assert.deepEqual(flatten(array1), result1);
+    assert.deepEqual(flatten(array2), result2);
+    assert.deepEqual(flatten(array3), result3);
   });
 });
