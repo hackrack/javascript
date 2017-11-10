@@ -15,9 +15,9 @@ function reverseString(string) {
     return '';
   }
 
-  var lastChar = string[string.length - 1];
-  var rest = string.slice(0, -1);
-  var reversed = lastChar + reverseString(rest);
+  var firstChar = string[0];
+  var rest = string.slice(1);
+  var reversed = reverseString(rest) + firstChar;
   return reversed;
 }
 
