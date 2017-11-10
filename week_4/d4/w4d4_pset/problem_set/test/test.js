@@ -7,7 +7,8 @@ var longestBigram = tryRequire('../problems/1_longest_bigram.js');
 var maxAdjacentSum = tryRequire('../problems/2_max_adjacent_sum.js');
 var opposingSums = tryRequire('../problems/3_opposing_sums.js');
 var additionSequence = tryRequire('../problems/4_addition_sequence.js');
-var flatten = tryRequire('../problems/5_flatten.js');
+var reverseString = tryRequire('../problems/5_reverse_string.js');
+var flatten = tryRequire('../problems/6_flatten.js');
 
 describe('longestBigram()', function () {
   it('should return the longest combination of 2 adjacent words', function () {
@@ -49,7 +50,7 @@ describe('opposingSums()', function () {
 
 
 describe('additionSequence()', function () {
-  it('should return the converted time in HH:MM:SS format', function () {
+  it('should return an array where numbers of the original array are added to the numbers in the sequence.', function () {
     var arr1 = [3, 2, 5, 4, 2, 1, 10];
     var seq1 = [2, 4, 6];
     var result1 = [ 5, 6, 11, 6, 6, 7, 12 ];
@@ -62,6 +63,15 @@ describe('additionSequence()', function () {
     assert.deepEqual(additionSequence(arr2, seq2), result2);
   });
 });
+
+describe('reverseString()', function () {
+  it('should return the string reversed', function () {
+    assert.equal(reverseString('bootcamp'), 'pmactoob');
+    assert.equal(reverseString('app academy'), 'ymedaca ppa');
+    assert.equal(reverseString(''), '');
+  });
+});
+
 
 describe('flatten()', function () {
   it('should return a flat array', function () {

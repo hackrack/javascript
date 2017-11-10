@@ -24,10 +24,10 @@ From the last example, you may be confused. We said that the function takes
 in an array as a parameter, but we passed it a string?!?
 If data is not an array, then we can consider it as a 0-dimensional array.
 
-    0-dimensional array: 42
-    1-dimensional array: [42]
-    2-dimensional array: [[42]]
-    3-dimensional array: [[[42]]]
+    0-dimensional array: 'some data'
+    1-dimensional array: ['some data']
+    2-dimensional array: [['some data']]
+    3-dimensional array: [[['some data']]]
 
 This line of thinking will help you frame the recursion
 in your brain. (programmer.mind === 'blown')
