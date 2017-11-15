@@ -43,14 +43,14 @@ for ([initialization]; [condition]; [incrementer]) {
 }
 ```
 
-* `[initialization]` - This is where you initialize a variable that will be
+* `[initialization]` - This expression is where you initialize a variable that will be
 used as the counter. This counter will be updated in the incrementer and
 checked in the condition.
 
-* `[condition]` - If it evaluates to true, we do another loop. If false, we
-stop loop. We call each "time" in a loop an **iteration**.
+* `[condition]` - If this expression evaluates to true, we run another "cycle" of the loop. If false, we
+stop and exit the loop. We call each "cycle" in a loop an **iteration**.
 
-* `[incrementer]` - This is evaluated after every iteration of the loop. **This
+* `[incrementer]` - This expression is evaluated after every iteration of the loop. **This
 step should bring the counter that was created in the `[initialization]` closer
 to a `[conditional]` that evaluates to false**. If your code is trapped in
 an infinite loop hit `ctrl + C` to kill the program.
@@ -78,16 +78,13 @@ for (var i = 2; i <= 10; i += 2) {
 a loop. Although the choice of name does seem a bit arbitrary, the convention is widespread -
 so you should adopt it!
 
-### Steps `for` a Loop
+### Steps for a Loop
 
 When running a `for` loop, there are a couple of steps that take place:
 
 1. initialize the counter
 
-2. evaluate the condition
-  * if it evaluates to `false`, exit the loop
-
-  * if it evaluates to `true`, move forward to *step 3*
+2. evaluate the condition - if it evaluates to `false`, exit the loop / if it evaluates to `true`, move forward to *step 3*
 
 3. run all the code inside the body of the loop
 
@@ -140,17 +137,27 @@ for (var i = 1; true; i += 1) {
 // the above loop will print increasing numbers forever!
 ```
 
-### `while` loop
+### while loops
+
+There is another form of loop syntax available in JavaScript. Let's explore the anatomy of a while loop. It will have
+the same ingredients as a for loop, just spread out across different lines.
 
 ```js
-while ([conditional]) {
-  //do something...
-}
+[initialization]
 
+while ([conditional]) {
+  // do something...
+
+  [incrementer]
+}
+```
+
+```js
 var i = 0;
 
 while (i < 10) {
   console.log(i);
+
   i++;
 }
 ```
@@ -159,9 +166,10 @@ while (i < 10) {
 don't.
 
 With these new constructs in our toolbelt, we can fix the problems with our
-earlier `print10` function.
+earlier `print10` function. Let's write two versions:
 
 ```js
+// while loop
 function printN(n) {
   var i = 0;
 
@@ -172,10 +180,21 @@ function printN(n) {
 }
 
 printN(10);
-// this will print all numbers from 0 through 9, why is 10 not included?
 ```
 
-Can you write this using a `for` loop? Do it.
+```js
+// for loop
+function printN(n) {
+  for (var i = 0; i < n; i++) {
+    console.log(i);
+  }
+}
+
+printN(10);
+```
+
+Notice that the function calls above will print 0 to 9. How come it didn't print out 0 to 10? That's because our loop condition
+says `i < n`, "loop while i is strictly less than n". If we wanted to include `n` itself, we should say `i <= n`, "loop while i is less than or equal to n".
 
 ### Looping Keywords
 

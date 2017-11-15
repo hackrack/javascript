@@ -12,8 +12,8 @@ var d = "d";
 // and so on...
 ```
 
-But this becomes cumbersome and unmanageable quickly. The Array is a data
-structure that solves this problem. Arrays are defined by `[]` and store their
+But this becomes cumbersome and unmanageable quickly. An Array is a data
+structure that solves this problem. Arrays are contained in `[]` and store their
 elements in sequential order. We can put elements into the array, replace elements
 in the array, and remove elements from the array.
 
@@ -75,9 +75,10 @@ but these are the ones you should commit to memory:
 * `Array.prototype.length` (property)
 * `Array.isArray(obj)`
 
-#### `String.prototype.split(separator)` and `Array.prototype.join(separator)`
+</br>
+### string.split(separator) and array.join(separator)
 
-`String.prototype.split(separator)` is a very helpful string method that splits a string into an array of substrings on the separator and returns the new array. It does not change the original string.
+`string.split(separator)` is a very helpful string method that splits a string into an array of substrings on the separator and returns the new array. It does not change the original string.
 
 ```js
 > var sentence = "Hey, whats up? Hello";
@@ -93,7 +94,7 @@ undefined
 'Hey, whats up? Hello'
 ```
 
-The opposite of that is `Array.prototype.join(separator)`. This array method joins an array into a string where array elements are concatenated by the `separator`. If no separator is specified, array elements are joined by a comma. If an element is undefined or null, it is converted to an empty string. Like `split()`, `join()` does not change the original array.
+The opposite of `string.split(separator)` is `array.join(separator)`. This array method joins an array into a string where array elements are concatenated by the `separator`. If no separator is specified, array elements are joined by a comma. If an element is undefined or null, it is converted to an empty string. Like `split()`, `join()` does not change the original array.
 
 Try it out in your REPL:
 
@@ -101,7 +102,7 @@ Try it out in your REPL:
 > words;
 [ 'Hey,', 'whats', 'up?', 'Hello' ]
 
-> var joinStr = splitStr.join(" ");
+> var joinStr = words.join(" ");
 'Hey, whats up? Hello'
 
 > joinStr;
@@ -109,6 +110,12 @@ Try it out in your REPL:
 
 > words.join(',');
 'Hey,,whats,up?,Hello'
+
+> words.join('_')
+'Hey,_whats_up?_Hello'
+
+> words.join('HI')
+'Hey,HIwhatsHIup?HIHello'
 ```
 
 One side effect of `split()` and `join()` is that when used in conjunction they are very useful for replacing characters or words in a string. Let's say I wanted to replace the word "Hey" with "Hi" in my string above. Or replace all e's with the letter o.
@@ -127,9 +134,22 @@ Check it out!
 
 > replaceE.join("o"); // all the e's got replaced with e's!
 'Hoy, whats up? Hollo'
+
+> 'bootcamp prep'.split('c').join('x'); // we can also do this in a one-liner
+'bootxamp prep'
+```
+
+The last expression above may seem scary, but remember our evaluation rules. JS evaluates from left to right.
+So let's step through how that expression evaluates:
+
+```js
+'bootcamp prep'.split('p').join('x'); // step 1
+[ 'boot', 'amp prep' ].join('x');     // step 2
+'bootxamp prep'                       // step 3
 ```
 
 ### Iterating Over Arrays
+
 Previously we learned how to iterate through certain numbers using a for loop. Check
 our this classic for loop that iterates from 0 through 2 as a refresher:
 
@@ -155,12 +175,18 @@ for (var i = 0; i < names.length; i += 1) {
 // the loop above will print out every name in the array.
 ```
 
+Here is how to understand every iteration of the loop:
+
+* when `i = 0`: `names[i]` or `names[0]` evaluates to `"Tommy"`
+* when `i = 1`: `names[i]` or `names[1]` evaluates to `"Fred"`
+* when `i = 2`: `names[i]` or `names[2]` evaluates to `"Kurstie"`
+
 Notice that the middle condition of the for loop uses `names.length` and not `3`
 explicitly. In this example the `length` of the `names` array is 3, but what if we
 wanted to iterate over an array of different length? By referring to the `length` property
 of an array, we can write a very versatile loop that iterates over any array! Remember
 that we like to write functions in a general way so they work on a range of input
-data (arguments). In the function below the input to our `printArray` function can be any array.
+data (arguments). In the function below, the input to our `printArray` function can be any array.
 
 ```js
 function printArray(arr) {

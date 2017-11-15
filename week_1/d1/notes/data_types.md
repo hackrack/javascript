@@ -1,6 +1,6 @@
 ## JavaScript Data Types
 
-Before we start manipulating data, we first have to know what kinds of data we can manipulate. JavaScript provides 5 primitive data types for us:
+Before we start manipulating data in our code, we first have to understand what data types exist. JavaScript provides 5 primitive data types for us to use:
 
 * Numbers
   * `0`, `7`, `-42`, `0.5`, etc.
@@ -13,13 +13,14 @@ Before we start manipulating data, we first have to know what kinds of data we c
 * Null
   * `null`
 
-`undefined` and `null` are unique data types in JavaScript because they only have
- single values. We will be seeing `undefined` frequently as the "default" value of
- a lot of things throughout the course. `null`
-is a value that we will use to represent "emptiness" or "nothingness".
+### undefined vs null
 
-We can group primitive data into composite forms, but that's a battle for another
-day.
+Undefined and Null are two data types may stand out as strange. `undefined` and `null` are unique data types in JavaScript
+because they only have single values. We will be seeing `undefined` frequently as the "default" value of
+ a lot of things throughout the course. `null` is a value that we will use to represent "emptiness" or "nothingness".
+
+It may seem that `undefined` and `null` mean the same thing. Shouldn't the default value of something be
+considered "empty" anyways? Great question. We'll gain more context as to where we encounter `undefined` vs `null` further in the course, but the short story is this: JavaScript will automatically make things `undefined` by default. We as programmers will explicitly make things `null`. By having two different values, we can easily differentiate between what was automatically set by JavaScript and what we set ourselves.
 
 ### NaN
 
@@ -44,12 +45,12 @@ A JavaScript number is pretty much any number that you can think of. Unlike othe
 programming languages, JavaScript has only a single `Number` type. No distinction
 is made for integer numbers, decimal numbers, etc..
 
-**Did you know?:** Negative zero (`-0`) is a number value in JavaScript. Weird.
+**Did you know?** Negative zero (`-0`) is a number value in JavaScript. Weird.
 
 In JavaScript, math expressions follow the same order of operations as regular math
 (parentheses, multiplication-division, addition-subtraction).
 
-#### Operators
+### Operators
 
 * `+` (addition)
 * `-` (subtraction)
@@ -71,7 +72,7 @@ In JavaScript, math expressions follow the same order of operations as regular m
 -10
 ```
 
-#### Modulo Operation
+### Modulo Operation
 
 All the JavaScript math operations above are the simple operations you use
 everyday, except for maybe modulo `%`. **Modulo gives us the remainder that results
@@ -100,7 +101,17 @@ Modulo is a very useful operation in the realm of computers. We can use it to ch
 the divisibility of numbers, whether numbers are even, whether they are prime, and
 much, much more. Don't take this seemingly simple operation from granted!
 
-##### A Modulo Pattern
+In the order of operations, modulo has the the same precedence as multiplication/division. So our complete
+order of math operations in JS is parentheses, multiplication-division-modulo, addition-subtraction.
+
+```js
+> 4 + 12 % 5    // modulo has precedence over addition
+6
+> (4 + 12) % 5  // parentheses have precedence over modulo
+1
+```
+
+### A Modulo Pattern
 
 Modulo behaves in a very particular way. For example, if we modulo any number by 3,
 there are only a few possible results: 0, 1, and 2. Likewise, if we modulo any
@@ -136,7 +147,7 @@ marinate for a bit, this will be useful later in the course.
 * `===` (equal)
 * `!==` (not equal)
 
-#### Comparison Expressions
+### Comparison Expressions
 
 We use comparison operators to check the value of data relative to other data:
 
@@ -167,7 +178,7 @@ Notice that a comparison expression always evaluates to a boolean value (`true` 
   `false`). Comparison operators like `===` are also useful to compare strings,
   booleans, etc. not just numbers.
 
-**Did you know?:** `'a' < 'b'` is valid JS code? When you relatively compare strings
+**Did you know?** `'a' < 'b'` is valid JS code? When you relatively compare strings
 using `>` or `<` you will be comparing them lexicographically. Lexicographically is
  fancy shmancy talk for "dictionary" order!
 
@@ -178,7 +189,8 @@ values are `true` and `false`. There are 3 main logical operations: **AND**, **O
 and **NOT**. The result of a logical expression is another boolean value. Check
 out the tables below:
 
-#### `&&` (AND)
+</br>
+### && (AND)
 
 | A     | B     | A && B |
 |-------|-------|--------|
@@ -187,7 +199,8 @@ out the tables below:
 | true  | false | false  |
 | true  | true  | true   |
 
-#### `||` (OR)
+</br>
+### || (OR)
 
 | A     | B     | A &#124;&#124; B |
 |-------|-------|--------|
@@ -196,7 +209,8 @@ out the tables below:
 | true  | false | true   |
 | true  | true  | true   |
 
-#### `!` (NOT)
+</br>
+#### ! (NOT)
 
 | A     | !A    |
 |-------|-------|
@@ -238,11 +252,12 @@ Why is this useful? Maybe I want a string that *contains* quotation marks. Like
 
 `'Shakespeare wrote, "To be, or not to be"'`, the single quotes are used to enclose the string.
 
-#### Indexing Strings
+### Indexing Strings
+
 Strings consist of multiple characters. These characters are numbered by **indices**
 starting at 0. So in the string `'bootcamp'`, `'b'` is at index 0, `'o'` is at index
-1, `'o'` is at index 2 and so on. We can look at particular characters of a string
-by using `[]` and specifying an index.
+1, `'o'` is at index 2, `'t'` is at index 3, and so on. We can look at particular characters
+of a string by using `[]` and specifying an index.
 
 ```js
 > var str = 'bootcamp'
@@ -261,7 +276,17 @@ undefined
 undefined
 ```
 
-#### Common String Methods
+In general, when we index a string using the expression `string[i]`, we get back the **single character** at position `i`.
+
+**Did you know?** Other programming languages (like C++) have two distinct data types for single character and string data. In
+JS, the String data type encompasses single character data. In other words `'b'` is a string that contains only 1 character.
+
+**DOUBLE did you know?** In other programming languages (like C++), using an invalid index with a string will crash your program
+with an error. JavaScript is awesome because it handles this issue gracefully by simply giving us back `undefined` (see the previous `str[100]` example).
+
+**TRIPLE did you know?** You should be very grateful that we are not teaching C++ :)
+
+### Common String Methods
 
 A method is a procedure we can use on some data. We will learn more in-depth what
 methods are later in the course. But for now, let's see some simple methods we can

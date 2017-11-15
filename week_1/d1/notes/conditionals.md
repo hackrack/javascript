@@ -2,17 +2,12 @@
 
 A conditional uses an expression that evaluates to either `true` or `false`. We can
 use conditionals to create branching logic within our program and solve more
-complex problems. Which of the following statements are conditionals:
+complex problems. Conditionals are useful because our code can be dynamic.
 
-*  `Am I tall?`
-*  `Go sit down.`
-*  `Do you want to go to the store?`
-*  `Why did the sun set?`
+Conditionals in programming will always ask a `true` or `false` question. If the answer is `true`,
+we run some code. If the answer is `false`, we run some other code.
 
-A good way to know if something is a conditional or not is to ask yourself if you
-can respond to it with "yes" or "no", `true` or `false`.
-
-### `if` ... `else` statements
+### if ... else statements
 
 Conditionals are primarily utilized within `if-then` statements. The basic
 structure is:
@@ -38,7 +33,7 @@ if (1 + 2 === 3) {
 // this prints "Branch 1"
 ```
 
-### `else if` statements
+### else if statements
 
 We can also use `else if` if there are several conditions that lead to many
 different branches of logic:
@@ -135,79 +130,7 @@ if (true) {
 Remember that all the conditions will be evaluated to a `true` or `false`, because any
 data has a boolean identity!
 
-### Mutual Exclusivity
-
-To really understand the difference between `if...if` and `if...else if`, let's analyze
-some logic. In particular, what does it mean for two conditions to be **mutually exclusive**?
-A pair of statements are mutually exclusive if it is impossible for both statements to be true
-at the same time. In a pair of mutually exclusive statements, if a statement is true, the other
-is definitely false, and vice versa!
-
-
-```js
-// Example 1: Mutually exclusive
-// these are mutually exclusive because we CAN'T have a `num` that is both positive and negative.
-if (num > 0) {
-  console.log('positive');
-}
-if (num < 0) {
-  console.log('negative');
-}
-```
-
-```js
-// Example 2: Not mutually exclusive
-// these are not mutually exclusive because we CAN have a `num` that is both positive and even.
-if (num > 0) {
-  console.log('positive');
-}
-if (num % 2 === 0) {
-  console.log('even');
-}
-```
-
-We know that `else` or `else if` in a chain of conditionals will ensure that only one of the branches
-can be taken at a time. If we go down one branch, we **exclude** the other branches. With that in mind,
-what if we use `else if` in the last examples?
-
-Adding `if...else if` with mutually exclusive conditions has no effect. The *logic* in the conditions already
-exclude one another, so adding `else if` doesn't change anything. Logical reasoning dictates we could
-only go down one of the branches anyways:
-
-```js
-// Example 1
-if (num > 0) {
-  console.log('positive');
-} else if (num < 0) {
-  console.log('negative');
-}
-```
-
-Adding `if...else if` with not mutually exclusive conditions will have an effect. Previously it was possible
-to go down both branches, but by adding else we can only go down one of them. Even if `num` is a positive
-even number like 8, we can only print out one of the messages.
-
-```js
-// Example 2
-var num = 8;
-if (num > 0) {
-  console.log('positive');
-} else if (num % 2 === 0) {
-  console.log('even');
-}
-// above prints 'positive' only
-
-var num = 8;
-if (num % 2 === 0) {
-  console.log('even');
-} else if (num > 0) {
-  console.log('positive');
-}
-// above prints 'even' only
-```
-
 ### Styling Conditionals
-
 One thing to notice is that in a chain of `if ... else if ... else`, we choose
 to start the `else` on the same line where the preceding conditional ends. We
 do this because an `else` cannot stand alone, it **must** follow another

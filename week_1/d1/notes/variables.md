@@ -2,7 +2,7 @@
 
 **Variables** are used to store information to be referenced and manipulated in a
 computer program. They also provide a way of labeling data with a descriptive name,
-so our programs can be understood more clearly programmers. It is helpful to think
+so our programs can be understood more clearly by programmers. It is helpful to think
 of variables as containers that hold information. Their sole purpose is to label and
 store data in computer memory. This data can then be used and even changed
 throughout the lifetime of your program.
@@ -10,20 +10,6 @@ throughout the lifetime of your program.
 Everything in JavaScript is evaluated. A **variable** always evaluates to the **value**
 it contains! It is as if we can replace anywhere we see the variable name with the
 value it contains. Think of them as placeholders.
-
-### Comments
-
-Before we talk about variables, just a comment about comments.
-
-You may often see us write `//` before lines of code. This is how we write comments in our
-code. Lines that begin with `//` will not be read by the JavaScript interpreter when we
-run our code. Programmers use comments to annotate their code and we will occasionally do the
-the same!
-
-```js
-// let's do some math
-5 + 5;
-```
 
 ### Declaring Variables
 
@@ -74,11 +60,11 @@ undefined
 ```
 
 Notice that when we declare or initialize a variable, the REPL prints out something
-underneath it. This is what the expression evaluates too. Everything in JavaScript
+underneath it. This is what the expression evaluates to. Everything in JavaScript
 is evaluates to some value! `undefined` is a very common "default" value, but more
 on this later.
 
-You may have noticed that in previous code `myVar + 2` evaluated to `7`, but the
+In previous code, notice that `myVar + 2` evaluated to `7`, but the
 value of the variable `myVar` was unchanged. Let's say we actually wanted to add `2`
 to `myVar` and save it back into `myVar`. To do this, we need to assign the variable
 again.
@@ -99,7 +85,7 @@ undefined
 Whenever we assign a value to a variable, the data we are assigning must be
 evaluated first. For example, to evaluate `num = num + 8` we must first evaluate
 the right side, `num + 8`. Once we have evaluated `num + 8` to `10`, then we store
-it into the variable called `num`.
+that value (`10`) into the variable on the left (`num`).
 
 ### Assignment Shorthand
 
@@ -130,33 +116,9 @@ undefined
 ```
 
 **Did you know?** The expression `n++` *evaluates* to the original/unchanged value,
-but rest assured it does indeed increment the variable. This is why `n++` evaluates
-to the unchanged number in the REPL. On the flip side of that,
-the expression `++n` *evaluates* to the new/changed value. We refer to these
+but it does indeed have the side effect of incrementing the variable. On the flip side of that,
+the expression `++n` immediately *evaluates* to the new/changed value. We refer to these
 different ways to increment as postfix (`n++`) and prefix (`++n`).
 
 We can use similar shorthand for other operations too. We have `+=` `-=`, `*=`,
 `/=`, `++`, and `--`. Hop into the REPL and experiment with these!
-
-
-### console.log
-
-`console.log` is the method we will be using to print out data to the screen. `console.log` 
-is a great tool because it allows us print out any data or variables we please! 
-This allows us to *see* what our data looks like throughout our code. Let's say we had 
-the following in a JavaScript file:
-
-```js
-var myName = 'bootcamp' + ' ' + 'prep';
-console.log(myName); // prints 'bootcamp prep'
-console.log(myName + '!!!'); // prints 'bootcamp prep!!!' 
-```
-
-When we run the file it will print out the following:
-
-```
-bootcamp prep
-bootcamp prep!!!
-```
-
-Notice that the thing we put inside the parentheses of `console.log` will be evaluated before we print it out.

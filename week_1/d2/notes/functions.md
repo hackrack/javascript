@@ -30,6 +30,7 @@ function avg(num1, num2) {
 }
 ```
 
+
 ### Defining a Function
 
 When we write **function definitions** we can put any valid JavaScript code inside
@@ -58,11 +59,12 @@ or not they are whole numbers, decimal, negative, etc..
 
 
 ### Calling a Function
-Now that we know how to define a
-function, how can we actually use it? After we define a function we can **call**
+
+Now that we know how to define a function, how can we actually use it? After we define a function we can **call**
 it as many times as we please.
 
-#### A simple example
+### A Simple Example
+
 Let's step away from `avg` for a bit to see how a simple function call works. Say
 we run a JavaScript file that looks like this:
 
@@ -107,7 +109,7 @@ myFunc();
 console.log("Fourth!");
 ```
 
-Let's say JavaScript is running the file above. Here is the steps it would take,
+Let's say JavaScript is running the file above. Here are the steps it would take,
 starting from the tippy top of the code:
 
 * JS sees a definition for `myFunc`. It will remember this definition in case we
@@ -117,15 +119,15 @@ call the function later. It will **not** evaluate the code inside the function y
 
 * JS sees that we are calling `myFunc()`. At this point it will look at the prior
 `myFunc` definition and run the code inside. It is as if we are "jumping" to inside the
-function definition. This means it will print `Second` followed by `Third!`
+function definition. This means it will print `Second!` followed by `Third!`
 
 * JS sees there is no more code to be run inside of `myFunc`, so it "jumps" back
 to where we originally called `myFunc()`
 
 * JS will continue evaluating in order and print `Fourth!`
 
+### An Average Example
 
-#### An `avg` example
 When we specify what data to use for a function call, we refer to that process
 **passing arguments to the function**.
 
@@ -156,7 +158,8 @@ in casual programmer talk, but the words refer to different things. In the case 
 our `avg(10, 16)` function call, `num1` and `num2` in the function definition are
 parameters, and the actual numbers, `10` and `16`, are arguments!
 
-#### Using a Return Value
+### Using a Return Value
+
 Now that we know how functions evaluate let's see how a return
 value can be used. We'll use `console.log` to see the result we get from the
 `avg` function.
@@ -177,8 +180,8 @@ console.log(avg(10, 16));  // prints `13`
 ```
 
 When we *call* a function, we jump to the function definition and run the code
-inside. When hit a `return` statement we immediately exit the function and jump
-back to where we *called* the function and evaluate the function call to the value
+inside. When we hit a `return` statement, we immediately exit the function, jump
+back to where we *called* the function, and evaluate the function call to the value
 it *returned*. Every function call evaluates to it's return value! In other words,
 the expression `avg(10, 16)` evaluates to `13` just like how the expression `1 + 1` evaluates to `2`.
 
@@ -200,12 +203,13 @@ don't we see `a return value` printed out? Hint: we will only *see* data that we
 print out using `console.log`
 
 We can also write functions that don't have return statements. If a function is
-not explicitly given a return value, it will automatically return `undefined`.
+not explicitly given a return value, it will automatically return `undefined`
 
 ### Anatomy of a Function
+
 To wrap up, here is the general syntax used to define a function:
 
-```js
+```javascript
 function nameOfFunction(param1, param2, param3, paramN) {
   // function body...
   return "a return value!";
