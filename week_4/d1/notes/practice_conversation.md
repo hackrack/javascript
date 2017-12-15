@@ -20,22 +20,27 @@ candidate responds to the initial question.
 
 ### Questions
 
-* >**(Ask this first)** Tell me about yourself. What have you been up to in the last 2 years and what brought you to
+* **(Ask this first)** Tell me about yourself. What have you been up to in the last 2 years and what brought you to
 the coding bootcamp scene?
 
-* >*Initial:* There are many great coding bootcamps out there. Why are you interested in App Academy in particular?
+* *Initial:* There are many great coding bootcamps out there. Why are you interested in App Academy in particular?
+  
   *Follow-Up:* Why do you think you will succeed at App Academy?
 
-* >*Initial:* Pair programming is a key aspect of App Academy's curriculum. What qualities do you think
+* *Initial:* Pair programming is a key aspect of App Academy's curriculum. What qualities do you think
 make a good partner?
+  
   *Follow-Up:* Say you were paired up with an obviously shy/unresponsive partner, how would you get them to open up?
 
-* >*Initial:* App Academy requires a lot of stamina with a 100 hour per week commitment for 12+ weeks until you find a job.
+* *Initial:* App Academy requires a lot of stamina with a 100 hour per week commitment for 12+ weeks until you find a job.
 Have you been in an environment like this before?
+  
   *Follow-Up:* How would you stay motivated during the course?
 
-* >*Initial:* You've been programming quite a bit in Bootcamp Prep, what do you like about programming?
+* *Initial:* You've been programming quite a bit in Bootcamp Prep, what do you like about programming?
+  
   *Follow-Up:* What's your least favorite aspect of programming?
 
-* >*Initial:* Creating an inclusive environment is important to App Academy. What do diversity and inclusion mean to you?
+* *Initial:* Creating an inclusive environment is important to App Academy. What do diversity and inclusion mean to you?
+  
   *Follow-Up:* Many tech companies, not just bootcamps are focusing on diversity. Why do you think they value it?
