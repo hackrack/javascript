@@ -1,3 +1,6 @@
+NOTE: Understanding the material is not necessary for Bootcamp interviews. Focus on the other object notes. But if you are interested
+in things to come at your bootcamp, give this a read.
+
 ## Methods vs Functions
 
 A **method** is essentially a function that belongs to an object. It is referred to

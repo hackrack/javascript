@@ -3,6 +3,7 @@
 + [Week 1 Review Problems][problems-w1d5]
 + [Solutions][solutions-w1d5]
 
++ [Assessment Instructions][assessment-instructions]
 
 + Assessment 1!
 
@@ -15,3 +16,4 @@
 [problems-w1d5]: ./problems/review.md
 [solutions-w1d5]: ./problems/solution.js
 [practice-2]: /practice_assessments/practice_2
+[assessment-instructions]: https://github.com/appacademy/bootcamp-prep-live-curriculum/blob/master/week_1/d5/assessment_instructions.md

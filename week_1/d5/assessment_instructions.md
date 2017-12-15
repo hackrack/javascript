@@ -17,6 +17,9 @@ Assessments will be made available in your class's [slack][bp-slack] channel by 
 + Make sure you renamed your assessment folder correctly.
 Compress/zip your entire assessment folder (by right clicking)
 + Direct message your instructor the assessment by attaching a file by clicking the + in the slack text box.
++ Students are required to upload an 100% passing assessment by the next assessment. You can upload your corrected assessment by starting a follow up discussion on your original submission. Be sure to name the file firstName_lastName_num_corrected. For example,
+alvin_zablan_1_corrected. Direct message your instructor your corrections.
+  + Friday corrections are due by the next Monday's class. Monday corrections are due by the next Friday's class.
 
 
 [bp-slack]: https://aa-bootcamp-prep.slack.com/
