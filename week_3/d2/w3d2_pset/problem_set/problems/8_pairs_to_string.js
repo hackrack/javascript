@@ -1,5 +1,5 @@
 /***********************************************************************
-Write a function `pairToString(arr)` that takes in an array of pairs.
+Write a function `pairsToString(arr)` that takes in an array of pairs.
 The function should return a string corresponding to the pairs.
 
 Examples:
@@ -10,7 +10,7 @@ var array1 = [
   ['c', 2]
 ];
 
-pairToString(array1); // => 'aaabcc'
+pairsToString(array1); // => 'aaabcc'
 
 var array2 = [
   ['f', 1],
@@ -19,7 +19,7 @@ var array2 = [
   ['!', 1]
 ];
 
-pairToString(array2); // => 'food!'
+pairsToString(array2); // => 'food!'
 ***********************************************************************/
 
 function pairsToString(arr) {
