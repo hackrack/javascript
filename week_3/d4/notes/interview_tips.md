@@ -21,7 +21,7 @@ as humanly possible.
 Like any interview, you want to put your best foot forward on a bootcamp interview. Bootcamps
 aren't just looking for candidates with technical skill alone. Bring positive energy
 and be enthusiastic about coding. Top candidates are friendly and fun to work with.
-By applying to a coding bootcamp you have shown that you interested to code for a
+By applying to a coding bootcamp you have shown that you are interested to code for a
 living, so you should have some passion for this work!
 
 ### Read and Understand the Problem
