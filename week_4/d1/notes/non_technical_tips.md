@@ -33,7 +33,8 @@ The points above are topics you want to explore in the interview. The questions 
 your interviewer, but it's your job to paint the picture and explain why you are a strong fit.
 For example, think about the classic open-ended interview question, "So tell me about yourself."
 Your response to this will probably be the longest part of the conversation where you will be doing most of
-the talking. Prepare a personal pitch you will use to respond to "tell me about yourself."
+the talking. Prepare a personal pitch you will use to respond to "tell me about yourself." Think about 3 main
+points you want the interviewer to take away from the conversation.
 
 Some points you may want to cover in your pitch:
 
@@ -41,8 +42,42 @@ Some points you may want to cover in your pitch:
 2. Why do you want to become a developer?
 3. How will app academy help you achieve your goal? And why a/A specifically, compared other bootcamps?
 
+Think of your personal pitch as a story describing how you made it to the bootcamp's doorstep.
+Here's one example flow for a personal pitch.
+
+Beginning:
+> I attended college at [college name] university, majoring in [major] . After graduation I worked at [company]
+as a [position]. During my time there, I accomplished [...] and learned how to [...].
+
+Middle:
+> I began tinkering with excel spreadsheets to automate some of my work which initially grew my interest in programming ...
+after dabbling in some free programming resources I decided that I wanted a more structure/quicker way to learn, so I enrolled
+into Bootcamp Prep...
+
+End:
+> Going through a/A Bootcamp Prep and programming everyday made me realize that I really enjoy programming and so I want to
+continue to take my code to the next level at [bootcamp]. I think it's great that [bootcamp] does [...], so I'm excited to apply
+
+Be sure to mention *specific* details in your pitch.
+
 You **should** write down your personal pitch and rehearse it. Having this spiel ready to go will
 show you are prepared and professional.
+
+When rehearsing your pitch and nontechnical conversations, here are a few things to be aware of:
+
++ Keep a natural flow
+  + don't overuse filler words (um, like, so)
+  + avoid reading off notes, have a human conversation
++ Be direct
+  + keep your pitch between 2 - 3 minutes
++ Use a normal speaking pace
+  + if you find yourself running out of breath, slow down
++ Bring positive energy and tone
++ Use body language appropriately
+  + eye contact can show confidence
+  + hand gestures can show you are passionate about what you are speaking about
+  + nodding when listening to someone shows you are attentive
+  + don't rest your head on your hands
 
 ### Do your Homework
 
