@@ -1,15 +1,10 @@
 ## W4D5
 
-+ [Congrats][congrats]
-
-
++ Final Assessment
+  + no hints solving the problems 
 + [Week 4 Practice Problems][w4d5-pset]
 
-
-+ Assessment 7
-
-
-+ Graduation!
++ [Congrats][congrats] and Graduation Party!
 
 [congrats]: ./congrats.md
 [w4d5-pset]: ./w4d5_pset.zip
