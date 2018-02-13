@@ -17,3 +17,13 @@
 [solutions-w1d5]: ./problems/solution.js
 [practice-2]: /practice_assessments/practice_2
 [assessment-instructions]: https://github.com/appacademy/bootcamp-prep-live-curriculum/blob/master/week_1/d5/assessment_instructions.md
+
+### Videos
+
++ Problem Walkthroughs
+  + [isInside](https://vimeo.com/210321209/629857bf99)
+  + [reverseStr](https://vimeo.com/208552851/f124c8ea5c)
+  + [luckySevens](https://vimeo.com/210321187/87be9e3ffd)
+  + [copyMachine](https://vimeo.com/210321263/14daa35913)
+  + [everyOtherWord](https://vimeo.com/210321236/0712a3383b)
+  + [wordYeller](https://vimeo.com/207348655/3e8fbc35a1)

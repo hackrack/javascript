@@ -22,6 +22,18 @@
 
 + Study [Practice Assessment 1][practice-1] to prep for the upcoming W1D5 assessment.
 
+### Videos
+
++ Lectures
+  + [Arrays I](https://vimeo.com/207855054/ec0d110830)
+  + [Arrays II](https://vimeo.com/207855102/4253599380)
++ Problem Walkthroughs
+  + [logEach](https://vimeo.com/206629412/eb37cf88df)
+  + [range](https://vimeo.com/206629555/8dbd06658b)
+  + [sumArray](https://vimeo.com/213574913/df3e640a2a)
+  + [capWords](https://vimeo.com/206629380/11c17ab8ef)
+  + [wordPeriods](https://vimeo.com/221020992/9028c5bb06)
+  + [maxValue](https://vimeo.com/206629452/d0ab647c2d)
 
 [arrays]: ./notes/arrays.md
 [problems-w1d4]: ./problems/problem_set.md
