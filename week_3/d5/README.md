@@ -14,6 +14,14 @@
 + Complete and submit a fully corrected Assessment 5 by W4D1's class.
 + Study [Practice Assessment 6][practice-6] to prep for the upcoming W4D1 assessment
 
+### Videos
+
++ Problem Walkthroughs
+  + [objectSelect](https://vimeo.com/211376152/3663abd08a)
+  + [splitHalfArray](https://vimeo.com/211376135/e7a8e8f48c)
+  + [threeUniqueVowels](https://vimeo.com/214076329/f2efbe5312)
+  + [vowelShift](https://vimeo.com/211376112/fa81384b55)
+
 [w3d5-pset]: ./w3d5_pset.zip
 [practice-6]: /practice_assessments/practice_6
 [non-tech-tips]: /week_4/d1/notes/non_technical_tips.md
