@@ -143,7 +143,7 @@ The last expression above may seem scary, but remember our evaluation rules. JS 
 So let's step through how that expression evaluates:
 
 ```js
-'bootcamp prep'.split('p').join('x'); // step 1
+'bootcamp prep'.split('c').join('x'); // step 1
 [ 'boot', 'amp prep' ].join('x');     // step 2
 'bootxamp prep'                       // step 3
 ```
