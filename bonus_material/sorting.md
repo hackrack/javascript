@@ -139,7 +139,7 @@ algorithms include [Insertion Sort][insertion-sort] and [Selection Sort][selecti
 These algorithms differ in their strategy and so not all algorithms are created equal.
 Some may be faster or offer other efficiencies. Analyzing the efficiency of programs will
 be a topic covered in your full immersive bootcamps, so no need to wrack our brains
-on it now. For a previw of things to come, check out this [cool visualization][sort-visualizations]
+on it now. For a preview of things to come, check out this [cool visualization][sort-visualizations]
 of different sorting algorithms. Notice how Bubble Sort is among the slowest performing algorithms.
 You'll learn that there are some terribly clever sorting algorithms out there, but
 we'll fight those battles for another day.
