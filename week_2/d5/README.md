@@ -18,7 +18,5 @@
   + [leastCommonMultiple](https://vimeo.com/209638756/664dedbc06)
   + [hipsterfy](https://vimeo.com/209638705/bcfb6a056d)
 
-### Problems
-
 [w2d5-pset]: ./w2d5_pset.zip
 [practice-4]: /practice_assessments/practice_4
